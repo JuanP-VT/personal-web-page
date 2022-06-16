@@ -35,7 +35,8 @@ body {
 #navBarList {
   display: flex;
   width: 60%;
-  gap: 20px;
+  gap: 5%;
+  align-items: center;
   a {
     text-decoration: none;
     color: whitesmoke;
@@ -44,9 +45,14 @@ body {
   .container {
     display: flex;
     height: 100%;
+    transition: all 150ms ease-in-out;
     .material-symbols-outlined {
       font-variation-settings: "FILL" 1, "wght" 700, "GRAD" 200, "opsz" 48;
       color: white;
+      margin-right: 5px;
+    }
+    &:hover {
+      border-bottom: 3px solid rgb(38, 38, 169);
     }
   }
 }
