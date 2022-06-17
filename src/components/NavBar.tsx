@@ -1,5 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 function NavBar() {
+  useEffect(() => {
+    window.addEventListener("click", () => {
+      console.log(window.scrollY);
+    });
+  }, []);
   return (
     <div id="NavBar">
       <div id="navBarName">Juan Pablo</div>
