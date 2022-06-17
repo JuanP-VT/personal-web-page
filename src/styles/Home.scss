@@ -8,7 +8,7 @@
   align-items: center;
   justify-items: center;
   .container {
-    margin-left: 30%;
+    margin-left: 25%;
     padding-bottom: 50px;
     position: relative;
     display: flex;
@@ -59,7 +59,7 @@
   height: 100%;
   width: 100%;
   background: $bgcOne;
-  border-left: 2px solid #fc6d6d;
+  border-left: 2px solid #ffffff;
   animation: typing 3s steps(10) infinite;
 }
 @keyframes typing {
