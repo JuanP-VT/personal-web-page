@@ -23,7 +23,11 @@ function Home() {
             </li>
           </ul>
         </div>
+        <div className="info">
+          My Name Is Juan Pablo And I'm A<br /> Web Developer
+        </div>
       </div>
+
       <div className="socials">
         <div className="Scontainer linkedin">
           <div className="text">LinkedIn</div>
