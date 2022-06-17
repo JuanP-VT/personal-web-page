@@ -1,16 +1,14 @@
+@use "Home";
+@import "Variables";
+
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;0,900;1,300;1,500;1,600;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
-$mainTextColor: rgb(251, 247, 247);
-$secondaryTextColor: rgb(3, 57, 132);
-$bgcOne: rgb(4, 9, 16);
-$bgcTwo: rgb(8, 34, 80);
-$bgcThree: rgb(110, 3, 3);
+
 * {
   font-family: "Montserrat", sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  color: $mainTextColor;
   scroll-behavior: smooth;
 }
 body {
@@ -22,6 +20,7 @@ body {
   height: 100%;
 }
 #NavBar {
+  z-index: 2;
   display: flex;
   position: fixed;
   width: 100%;
@@ -80,10 +79,7 @@ body {
     }
   }
 }
-#Home {
-  background-color: $bgcOne;
-  height: 100vh;
-}
+
 #About {
   height: 30vh;
   background-color: $bgcTwo;

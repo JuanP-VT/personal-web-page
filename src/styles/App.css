@@ -1,11 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;0,900;1,300;1,500;1,600;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+#Home {
+  background-color: rgb(4, 9, 16);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+#Home .container {
+  padding-bottom: 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.wrapper .static-txt {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+
+.wrapper .dynamic-txts {
+  margin-left: 15px;
+  height: 90px;
+  line-height: 90px;
+  overflow: hidden;
+}
+
+.dynamic-txts li {
+  list-style: none;
+  color: rgb(3, 57, 132);
+  font-size: 60px;
+  font-weight: 500;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+}
+
+@keyframes slide {
+  100% {
+    top: -360px;
+  }
+}
+.dynamic-txts li span {
+  position: relative;
+  margin: 5px 0;
+  line-height: 80px;
+  font-family: "Poppins", sans-serif;
+}
+
+.dynamic-txts li span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgb(4, 9, 16);
+  border-left: 2px solid #fc6d6d;
+  animation: typing 3s steps(10) infinite;
+}
+
+@keyframes typing {
+  40%, 60% {
+    left: calc(100% + 30px);
+  }
+  100% {
+    left: 0;
+  }
+}
 * {
   font-family: "Montserrat", sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  color: rgb(251, 247, 247);
   scroll-behavior: smooth;
 }
 
@@ -20,6 +94,7 @@ body {
 }
 
 #NavBar {
+  z-index: 2;
   display: flex;
   position: fixed;
   width: 100%;
@@ -79,11 +154,6 @@ body {
 #navBarList .container:hover {
   border-bottom: 3px solid rgb(38, 38, 169);
   transform: scale(1.1);
-}
-
-#Home {
-  background-color: rgb(4, 9, 16);
-  height: 100vh;
 }
 
 #About {
