@@ -17,7 +17,7 @@ function Home() {
               <span>Coder</span>
             </li>
             <li>
-              <span>Enthusiast</span>
+              <span>Passionate Learner</span>
             </li>
           </ul>
         </div>

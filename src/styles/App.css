@@ -9,6 +9,7 @@
   justify-items: center;
 }
 #Home .container {
+  margin-left: 30%;
   padding-bottom: 50px;
   position: relative;
   display: flex;
@@ -106,10 +107,11 @@ body {
 }
 
 .scrolled {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgb(3, 57, 132);
 }
 
 #navBarName {
+  color: rgb(251, 247, 247);
   text-align: center;
   width: 40%;
   font-weight: 600;
@@ -119,9 +121,10 @@ body {
 }
 #navBarName #alter {
   font-family: "Lobster", cursive;
+  color: rgb(3, 57, 132);
 }
 #navBarName .alter {
-  color: rgb(3, 57, 132);
+  color: rgb(251, 247, 247) !important;
   font-family: "Lobster", cursive;
 }
 
