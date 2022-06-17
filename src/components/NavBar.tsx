@@ -1,8 +1,15 @@
 import React, { useEffect } from "react";
 function NavBar() {
   useEffect(() => {
-    window.addEventListener("click", () => {
-      console.log(window.scrollY);
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 50) {
+        const navBar = document.querySelector("#NavBar") as HTMLDivElement;
+        navBar.classList.add("scrolled");
+      }
+      if (window.scrollY < 50) {
+        const navBar = document.querySelector("#NavBar") as HTMLDivElement;
+        navBar.classList.remove("scrolled");
+      }
     });
   }, []);
   return (

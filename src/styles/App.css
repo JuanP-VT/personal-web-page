@@ -5,6 +5,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  color: whitesmoke;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -20,12 +22,16 @@ body {
 #NavBar {
   display: flex;
   position: fixed;
-  background-color: rgba(0, 0, 0, 0.8);
   width: 100%;
   height: 60px;
   display: flex;
   padding: 10px;
   align-items: center;
+  transition: all 400ms ease-in-out;
+}
+
+.scrolled {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 #navBarName {
