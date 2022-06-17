@@ -26,11 +26,11 @@ function NavBar() {
           <span className="material-symbols-outlined">
             temp_preferences_custom
           </span>
-          <a href="#Showcase">Showcase</a>
+          <a href="#ShowCase">Showcase</a>
         </div>
         <div className="container">
           <span className="material-symbols-outlined">Folder</span>
-          <a href="#allProjects">All Projects</a>
+          <a href="#AllProjects">All Projects</a>
         </div>
       </div>
     </div>
