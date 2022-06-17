@@ -7,6 +7,7 @@
   display: flex;
   align-items: center;
   justify-items: center;
+  position: relative;
 }
 #Home .container {
   margin-left: 25%;
@@ -76,6 +77,53 @@
     left: 0;
   }
 }
+.socials {
+  position: absolute;
+  justify-items: center;
+  align-items: center;
+}
+.socials .github {
+  background-color: rgb(67, 67, 67);
+}
+.socials .linkedin {
+  background-color: rgb(24, 56, 238);
+}
+.socials .email {
+  background-color: rgb(163, 76, 0);
+}
+.socials .Scontainer {
+  margin-right: 500px;
+  display: flex;
+  position: relative;
+  height: 60px;
+  width: 250px;
+  transform: translateX(-150px);
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 2px;
+  overflow: hidden;
+  transition: all 400ms ease-in-out;
+}
+.socials .Scontainer:hover {
+  transform: translateY(0);
+}
+.socials .Scontainer .text {
+  padding-top: 3px;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: rgb(251, 247, 247);
+}
+.socials .Scontainer img {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  right: 10%;
+  top: 15%;
+  position: block;
+}
+
 * {
   font-family: "Montserrat", sans-serif;
   padding: 0;
