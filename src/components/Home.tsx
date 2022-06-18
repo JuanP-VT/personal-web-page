@@ -6,23 +6,6 @@ function Home() {
   return (
     <section id="Home">
       <div className="container">
-        <div className="wrapper">
-          <div className="static-txt">Hi !, I'm a</div>
-          <ul className="dynamic-txts">
-            <li>
-              <span>Former Industrial Engineer</span>
-            </li>
-            <li>
-              <span>Web Developer</span>
-            </li>
-            <li>
-              <span>Coder</span>
-            </li>
-            <li>
-              <span>Passionate Learner</span>
-            </li>
-          </ul>
-        </div>
         <div className="info">
           My Name Is Juan Pablo And I'm A<br /> Web Developer
         </div>
