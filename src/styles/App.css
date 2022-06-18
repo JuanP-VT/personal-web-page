@@ -15,6 +15,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 #Home .container .info {
   width: 50%;
@@ -24,9 +25,15 @@
   color: rgb(251, 247, 247);
   font-weight: 650;
   text-align: center;
-  margin-left: 100px;
-  padding-left: 80px;
-  margin-top: 30px;
+  margin-top: 40px;
+}
+
+#textAnimation span {
+  color: white;
+  font-size: 2.5rem;
+}
+#textAnimation strong {
+  color: rgb(3, 57, 132);
 }
 
 .socials {

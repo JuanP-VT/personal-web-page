@@ -14,6 +14,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    width: 100%;
     .info {
       width: 50%;
       display: inline-flex;
@@ -22,13 +23,20 @@
       color: $mainTextColor;
       font-weight: 650;
       text-align: center;
-      margin-left: 100px;
-      padding-left: 80px;
-      margin-top: 30px;
+      margin-top: 40px;
     }
   }
 }
-
+//Animated Text
+#textAnimation {
+  span {
+    color: white;
+    font-size: 2.5rem;
+  }
+  strong {
+    color: $secondaryTextColor;
+  }
+}
 //Social networks links
 .socials {
   position: absolute;
