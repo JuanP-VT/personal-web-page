@@ -36,6 +36,10 @@
   color: rgb(3, 57, 132);
 }
 
+#icon47:hover {
+  color: rgb(47, 9, 109);
+  transform: scale(1.1);
+}
 .socials {
   position: absolute;
   justify-items: center;

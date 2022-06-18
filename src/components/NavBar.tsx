@@ -1,4 +1,12 @@
 import React, { useEffect } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faHome,
+  faAddressCard,
+  faScrewdriverWrench,
+  faStar,
+  faFolder,
+} from "@fortawesome/free-solid-svg-icons";
 function NavBar() {
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -21,28 +29,25 @@ function NavBar() {
       </div>
       <div id="navBarList">
         <div className="container">
-          <span className="material-symbols-outlined">home</span>
+          <FontAwesomeIcon icon={faHome} />
 
           <a href="#Home">Home</a>
         </div>
         <div className="container">
-          <span className="material-symbols-outlined">person</span>
+          <FontAwesomeIcon icon={faAddressCard} />
           <a href="#About">About</a>
         </div>
         <div className="container">
-          <span id="stars" className="material-symbols-outlined">
-            construction
-          </span>
+          <FontAwesomeIcon icon={faScrewdriverWrench} />
+
           <a href="#Skills">Skills</a>
         </div>
         <div className="container">
-          <span className="material-symbols-outlined star">
-            temp_preferences_custom
-          </span>
+          <FontAwesomeIcon icon={faStar} />
           <a href="#ShowCase">Showcase</a>
         </div>
         <div className="container">
-          <span className="material-symbols-outlined">Folder</span>
+          <FontAwesomeIcon icon={faFolder} />
           <a href="#AllProjects">All Projects</a>
         </div>
       </div>
