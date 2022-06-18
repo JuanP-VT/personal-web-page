@@ -63,6 +63,7 @@
     margin-bottom: 2px;
     overflow: hidden;
     transition: all 400ms ease-in-out;
+    cursor: pointer;
     &:hover {
       transform: translateY(0);
     }
@@ -74,13 +75,14 @@
       font-weight: 700;
       color: $mainTextColor;
     }
-    img {
+    svg {
       height: 40px;
       width: 40px;
       position: absolute;
       right: 10%;
       top: 15%;
       position: block;
+      color: $mainIconColor;
     }
   }
 }

@@ -36,23 +36,19 @@
   color: rgb(3, 57, 132);
 }
 
-#icon47:hover {
-  color: rgb(47, 9, 109);
-  transform: scale(1.1);
-}
 .socials {
   position: absolute;
   justify-items: center;
   align-items: center;
 }
 .socials .github {
-  background-color: rgb(67, 67, 67);
+  background-color: rgb(141, 139, 139);
 }
 .socials .linkedin {
-  background-color: rgb(24, 56, 238);
+  background-color: rgb(34, 74, 220);
 }
 .socials .email {
-  background-color: rgb(163, 76, 0);
+  background-color: rgb(200, 162, 26);
 }
 .socials .Scontainer {
   margin-right: 500px;
@@ -66,6 +62,7 @@
   margin-bottom: 2px;
   overflow: hidden;
   transition: all 400ms ease-in-out;
+  cursor: pointer;
 }
 .socials .Scontainer:hover {
   transform: translateY(0);
@@ -78,13 +75,14 @@
   font-weight: 700;
   color: rgb(251, 247, 247);
 }
-.socials .Scontainer img {
+.socials .Scontainer svg {
   height: 40px;
   width: 40px;
   position: absolute;
   right: 10%;
   top: 15%;
   position: block;
+  color: rgb(242, 234, 234);
 }
 
 * {
@@ -148,25 +146,25 @@ body {
 #navBarList a {
   text-decoration: none;
   color: whitesmoke;
-  margin-top: 3px;
 }
 #navBarList .container {
   display: flex;
   height: 100%;
   transition: all 150ms ease-in-out;
+  padding: 5px;
 }
-#navBarList .container .material-symbols-outlined {
+#navBarList .container svg {
   font-variation-settings: "FILL" 1, "wght" 700, "GRAD" 200, "opsz" 48;
   color: white;
   margin-right: 5px;
   transition: all 300ms ease-in-out;
 }
-#navBarList .container .material-symbols-outlined:hover {
-  color: rgb(228, 228, 87);
+#navBarList .container svg:hover {
+  color: rgb(237, 220, 33);
   transform: scale(1.1);
 }
 #navBarList .container:hover {
-  border-bottom: 3px solid rgb(38, 38, 169);
+  border-bottom: 3px solid rgb(93, 93, 231);
   transform: scale(1.1);
 }
 

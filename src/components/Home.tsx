@@ -4,6 +4,16 @@ import { useEffect, useRef } from "react";
 import LinkedIn from "../img/linkedin.png";
 import gitHub from "../img/github.png";
 import email from "../img/email.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faLinkedin,
+  faLinkedinIn,
+  faGithub,
+  faGitAlt,
+  faGithubSquare,
+  faGit,
+} from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 function Home() {
   const el = useRef(null);
   useEffect(() => {
@@ -43,19 +53,19 @@ function Home() {
         <div className="Scontainer linkedin">
           <div className="text">LinkedIn</div>
           <div className="iconContainer">
-            <img src={LinkedIn} alt="Linkedin icon" />
+            <FontAwesomeIcon icon={faLinkedin} />
           </div>
         </div>
         <div className="Scontainer github">
           <div className="text">GitHub</div>
           <div className="iconContainer">
-            <img src={gitHub} alt="Linkedin icon " />
+            <FontAwesomeIcon icon={faGithubSquare} />
           </div>
         </div>
         <div className="Scontainer email">
           <div className="text">Email</div>
           <div className="iconContainer ">
-            <img src={email} alt="Linkedin icon" />
+            <FontAwesomeIcon icon={faEnvelope} />
           </div>
         </div>
       </div>

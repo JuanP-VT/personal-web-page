@@ -59,24 +59,24 @@ body {
   a {
     text-decoration: none;
     color: whitesmoke;
-    margin-top: 3px;
   }
   .container {
     display: flex;
     height: 100%;
     transition: all 150ms ease-in-out;
-    .material-symbols-outlined {
+    padding: 5px;
+    svg {
       font-variation-settings: "FILL" 1, "wght" 700, "GRAD" 200, "opsz" 48;
       color: white;
       margin-right: 5px;
       transition: all 300ms ease-in-out;
       &:hover {
-        color: rgb(228, 228, 87);
+        color: rgb(237, 220, 33);
         transform: scale(1.1);
       }
     }
     &:hover {
-      border-bottom: 3px solid rgb(38, 38, 169);
+      border-bottom: 3px solid rgb(93, 93, 231);
       transform: scale(1.1);
     }
   }
