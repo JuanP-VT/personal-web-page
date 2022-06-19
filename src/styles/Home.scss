@@ -18,11 +18,29 @@
       width: 50%;
       display: inline-flex;
       font-size: 2rem;
-      border-bottom: 1px solid rgb(181, 153, 13);
       color: $mainTextColor;
       font-weight: 650;
+      justify-content: center;
       text-align: center;
       margin-top: 40px;
+      justify-items: center;
+      position: relative;
+      &::after {
+        content: "";
+        right: 0;
+        top: 50%;
+        width: 5%;
+        border-bottom: 4px solid rgb(207, 186, 85);
+        position: absolute;
+      }
+      &::before {
+        content: "";
+        left: 0;
+        top: 50%;
+        width: 5%;
+        border-bottom: 4px solid rgb(207, 186, 85);
+        position: absolute;
+      }
     }
   }
 }
