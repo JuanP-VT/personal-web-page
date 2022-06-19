@@ -12,14 +12,14 @@ function Home() {
       const typed = new Typed(el.current, {
         strings: [
           "Hi!  ,Im A <strong>Web Developer</strong>",
-          "Hi!  ,Im A <strong>Former Industrial Engineer</strong>",
+          "Hi!  ,Im A <strong>Industrial Engineer</strong>",
           "Hi!  ,Im A <strong>Passionate Learner<strong>",
           "Hi!  ,Im A <strong>Coder<strong>",
         ], // Speed settings, try different values until you get good results
         startDelay: 100,
         typeSpeed: 50,
         backSpeed: 50,
-        backDelay: 200,
+        backDelay: 400,
         loop: true,
       });
 
