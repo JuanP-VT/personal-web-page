@@ -50,7 +50,7 @@
       margin-top: 30px;
       a {
         color: $mainTextColor;
-        font-family: "Montserrat", sans-serif;
+        font-family: $fontOne;
         display: flex;
         width: 200px;
         height: 20px;
@@ -60,6 +60,7 @@
         border-radius: 50px;
         justify-items: center;
         outline: none;
+        text-decoration: none;
         font-weight: 600;
         font-size: 1.03rem;
         cursor: pointer;
@@ -88,7 +89,7 @@
 //Animated Text
 #textAnimation {
   span {
-    color: rgb(87, 84, 84);
+    color: $thirdTextColor;
     font-size: 3rem;
   }
   strong {

@@ -5,7 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;0,900;1,300;1,500;1,600;1,800;1,900&display=swap");
 
 * {
-  font-family: "Montserrat", sans-serif;
+  font-family: $fontOne;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -26,13 +26,13 @@ body {
 }
 #Skills {
   height: 50vh;
-  background-color: $bgcThree;
+  background-color: $bgcOne;
 }
 #ShowCase {
   height: 40vh;
-  background-color: $bgcOne;
+  background-color: $bgcTwo;
 }
 #AllProjects {
   height: 40vh;
-  background-color: $bgcTwo;
+  background-color: $bgcOne;
 }

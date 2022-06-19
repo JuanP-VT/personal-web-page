@@ -1,18 +1,9 @@
 import React from "react";
 import Typed from "typed.js";
 import { useEffect, useRef } from "react";
-import LinkedIn from "../img/linkedin.png";
-import gitHub from "../img/github.png";
-import email from "../img/email.png";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faLinkedin,
-  faLinkedinIn,
-  faGithub,
-  faGitAlt,
-  faGithubSquare,
-  faGit,
-} from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faGithubSquare } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 function Home() {
   const el = useRef(null);

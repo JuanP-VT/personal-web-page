@@ -1,13 +1,18 @@
-//Text
+//FontFamily
+$fontOne: "Montserrat", sans-serif;
+$fontTwo: "Lobster", cursive;
+
+//TextColor
 $mainTextColor: rgb(251, 247, 247);
 $secondaryTextColor: rgb(3, 57, 132);
+$thirdTextColor: rgb(85, 83, 83);
 //Backgrounds
 $bgcOne: rgb(4, 9, 16);
 $bgcTwo: rgb(8, 34, 80);
-$bgcThree: rgb(110, 3, 3);
 $gitHubCardColor: rgb(141, 139, 139);
 $linkedinCardColor: rgb(34, 74, 220);
 $emailCardColor: rgb(200, 162, 26);
+$NavBarBGC: rgb(0, 0, 0);
 
 //Icons
 $navBarIconColor: rgb(19, 126, 28);

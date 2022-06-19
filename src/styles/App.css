@@ -62,6 +62,7 @@
   border-radius: 50px;
   justify-items: center;
   outline: none;
+  text-decoration: none;
   font-weight: 600;
   font-size: 1.03rem;
   cursor: pointer;
@@ -86,7 +87,7 @@
 }
 
 #textAnimation span {
-  color: rgb(87, 84, 84);
+  color: rgb(85, 83, 83);
   font-size: 3rem;
 }
 #textAnimation strong {
@@ -165,7 +166,7 @@
 }
 
 .scrolled {
-  background-color: rgb(3, 57, 132);
+  background-color: rgb(0, 0, 0);
 }
 
 #navBarName {
@@ -195,7 +196,7 @@
 #navBarList a {
   font-size: 1.2rem;
   text-decoration: none;
-  color: whitesmoke;
+  color: rgb(155, 151, 151);
 }
 #navBarList .container {
   display: flex;
@@ -244,17 +245,17 @@ body {
 
 #Skills {
   height: 50vh;
-  background-color: rgb(110, 3, 3);
+  background-color: rgb(4, 9, 16);
 }
 
 #ShowCase {
   height: 40vh;
-  background-color: rgb(4, 9, 16);
+  background-color: rgb(8, 34, 80);
 }
 
 #AllProjects {
   height: 40vh;
-  background-color: rgb(8, 34, 80);
+  background-color: rgb(4, 9, 16);
 }
 
 /*# sourceMappingURL=App.css.map */

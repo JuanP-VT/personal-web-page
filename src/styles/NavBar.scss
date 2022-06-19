@@ -11,7 +11,7 @@
   transition: all 400ms ease-in-out;
 }
 .scrolled {
-  background-color: $secondaryTextColor;
+  background-color: $NavBarBGC;
 }
 #navBarName {
   color: $mainTextColor;
@@ -20,14 +20,14 @@
   font-weight: 600;
   font-size: 2.5rem;
   letter-spacing: 10px;
-  font-family: "Lobster", cursive;
+  font-family: $fontTwo;
   #alter {
-    font-family: "Lobster", cursive;
+    font-family: $fontTwo;
     color: $secondaryTextColor;
   }
   .alter {
     color: $mainTextColor !important;
-    font-family: "Lobster", cursive;
+    font-family: $fontTwo;
   }
 }
 
@@ -39,7 +39,7 @@
   a {
     font-size: 1.2rem;
     text-decoration: none;
-    color: whitesmoke;
+    color: rgb(155, 151, 151);
   }
   .container {
     display: flex;
