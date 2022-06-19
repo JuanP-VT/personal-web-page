@@ -42,6 +42,47 @@
         position: absolute;
       }
     }
+    .btnContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+      margin-top: 30px;
+      a {
+        color: $mainTextColor;
+        font-family: "Montserrat", sans-serif;
+        display: flex;
+        width: 200px;
+        height: 20px;
+        padding: 20px;
+        padding-left: 40px;
+        align-items: center;
+        border-radius: 50px;
+        justify-items: center;
+        outline: none;
+        font-weight: 600;
+        font-size: 1.03rem;
+        cursor: pointer;
+        transition: all ease-in-out 400ms;
+        border: none;
+      }
+      .cv {
+        background-color: transparent;
+        color: $mainTextColor;
+        border: 3px solid $btnColorOne;
+        margin-right: 20px;
+        &:hover {
+          background-color: $btnColorOne;
+        }
+      }
+      .project {
+        background-color: $btnColorTwo;
+        &:hover {
+          background-color: transparent;
+          border: 3px solid $btnColorTwo;
+        }
+      }
+    }
   }
 }
 //Animated Text

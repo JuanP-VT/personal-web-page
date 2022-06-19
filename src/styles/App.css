@@ -43,6 +43,47 @@
   border-bottom: 4px solid rgb(207, 186, 85);
   position: absolute;
 }
+#Home .container .btnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin-top: 30px;
+}
+#Home .container .btnContainer a {
+  color: rgb(251, 247, 247);
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  width: 200px;
+  height: 20px;
+  padding: 20px;
+  padding-left: 40px;
+  align-items: center;
+  border-radius: 50px;
+  justify-items: center;
+  outline: none;
+  font-weight: 600;
+  font-size: 1.03rem;
+  cursor: pointer;
+  transition: all ease-in-out 400ms;
+  border: none;
+}
+#Home .container .btnContainer .cv {
+  background-color: transparent;
+  color: rgb(251, 247, 247);
+  border: 3px solid rgb(166, 43, 43);
+  margin-right: 20px;
+}
+#Home .container .btnContainer .cv:hover {
+  background-color: rgb(166, 43, 43);
+}
+#Home .container .btnContainer .project {
+  background-color: rgb(27, 27, 163);
+}
+#Home .container .btnContainer .project:hover {
+  background-color: transparent;
+  border: 3px solid rgb(27, 27, 163);
+}
 
 #textAnimation span {
   color: rgb(87, 84, 84);

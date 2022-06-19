@@ -47,6 +47,14 @@ function Home() {
         <div className="info">
           My Name Is Juan Pablo And I'm A<br /> Web Developer
         </div>
+        <div className="btnContainer">
+          <a href="ShowCase" className="cv">
+            Download CV
+          </a>
+          <a href="#ShowCase" className="project">
+            View Projects
+          </a>
+        </div>
       </div>
 
       <div className="socials">
