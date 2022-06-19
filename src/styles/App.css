@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Permanent+Marker&display=swap");
 #Home {
-  background-color: rgb(11, 11, 12);
+  background-color: rgb(12, 12, 12);
   height: 100vh;
   display: flex;
   align-items: center;
@@ -8,6 +8,7 @@
   position: relative;
 }
 #Home .container {
+  margin-top: 65px;
   margin-left: 30%;
   padding-bottom: 50px;
   position: relative;
@@ -32,7 +33,7 @@
   right: 0;
   top: 50%;
   width: 5%;
-  border-bottom: 4px solid rgb(207, 186, 85);
+  border-bottom: 4px solid rgb(223, 209, 141);
   position: absolute;
 }
 #Home .container .info::before {
@@ -40,7 +41,7 @@
   left: 0;
   top: 50%;
   width: 5%;
-  border-bottom: 4px solid rgb(207, 186, 85);
+  border-bottom: 4px solid rgb(223, 209, 141);
   position: absolute;
 }
 #Home .container .btnContainer {
@@ -54,10 +55,10 @@
   color: rgb(227, 225, 225);
   font-family: "Lato", sans-serif;
   display: flex;
-  width: 200px;
-  height: 20px;
-  padding: 20px;
+  padding: 25px;
   padding-left: 40px;
+  padding-right: 40px;
+  height: 20px;
   align-items: center;
   border-radius: 50px;
   justify-items: center;
@@ -79,19 +80,19 @@
   background-color: rgb(166, 43, 43);
 }
 #Home .container .btnContainer .project {
-  background-color: rgb(27, 27, 163);
+  background-color: rgb(14, 14, 90);
 }
 #Home .container .btnContainer .project:hover {
   background-color: transparent;
-  border: 3px solid rgb(27, 27, 163);
+  border: 3px solid rgb(14, 14, 90);
 }
 
 #textAnimation span {
   color: rgb(85, 83, 83);
-  font-size: 3rem;
+  font-size: 4rem;
 }
 #textAnimation strong {
-  color: rgb(3, 57, 132);
+  color: rgb(161, 25, 25);
 }
 
 .socials {
@@ -166,7 +167,7 @@
 }
 
 .scrolled {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(32, 33, 33);
 }
 
 #navBarName {
@@ -178,13 +179,17 @@
   letter-spacing: 10px;
   font-family: "Permanent Marker", cursive;
 }
-#navBarName #alter {
+#navBarName #nameOne {
   font-family: "Permanent Marker", cursive;
-  color: rgb(3, 57, 132);
+  color: rgb(227, 225, 225);
+}
+#navBarName #nameTwo {
+  font-family: "Permanent Marker", cursive;
+  color: rgb(161, 25, 25);
 }
 #navBarName .alter {
-  color: rgb(227, 225, 225) !important;
   font-family: "Permanent Marker", cursive;
+  color: rgb(177, 177, 177) !important;
 }
 
 #navBarList {
@@ -216,7 +221,7 @@
   transform: scale(1.2);
 }
 #navBarList .container:hover svg {
-  color: rgb(132, 192, 207);
+  color: rgb(132, 152, 207);
   transform: scale(1.2);
 }
 
@@ -245,7 +250,7 @@ body {
 
 #Skills {
   height: 50vh;
-  background-color: rgb(11, 11, 12);
+  background-color: rgb(12, 12, 12);
 }
 
 #ShowCase {
@@ -255,7 +260,7 @@ body {
 
 #AllProjects {
   height: 40vh;
-  background-color: rgb(11, 11, 12);
+  background-color: rgb(12, 12, 12);
 }
 
 /*# sourceMappingURL=App.css.map */

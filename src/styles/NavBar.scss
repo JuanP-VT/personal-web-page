@@ -21,13 +21,17 @@
   font-size: 2rem;
   letter-spacing: 10px;
   font-family: $fontTwo;
-  #alter {
+  #nameOne {
+    font-family: $fontTwo;
+    color: $mainTextColor;
+  }
+  #nameTwo {
     font-family: $fontTwo;
     color: $secondaryTextColor;
   }
   .alter {
-    color: $mainTextColor !important;
     font-family: $fontTwo;
+    color: rgb(177, 177, 177) !important;
   }
 }
 

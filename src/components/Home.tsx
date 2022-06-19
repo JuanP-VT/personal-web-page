@@ -15,7 +15,8 @@ function Home() {
           "Hi!  ,Im A <strong>Industrial Engineer</strong>",
           "Hi!  ,Im A <strong>Passionate Learner<strong>",
           "Hi!  ,Im A <strong>Coder<strong>",
-        ], // Speed settings, try different values until you get good results
+          "Hi!  ,Im  <strong>Juan Pablo<strong>",
+        ], // Speed settings
         startDelay: 100,
         typeSpeed: 50,
         backSpeed: 50,

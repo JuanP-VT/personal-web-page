@@ -11,7 +11,7 @@ function NavBar() {
   useEffect(() => {
     window.addEventListener("scroll", () => {
       const navBar = document.querySelector("#NavBar") as HTMLDivElement;
-      const alterName = document.querySelector("#alter") as HTMLSpanElement;
+      const alterName = document.querySelector("#nameOne") as HTMLSpanElement;
       if (window.scrollY > 50) {
         navBar.classList.add("scrolled");
         alterName.classList.add("alter");
@@ -25,7 +25,7 @@ function NavBar() {
   return (
     <div id="NavBar">
       <div id="navBarName">
-        Juan <span id="alter">Pablo</span>
+        <span id="nameOne">Juan</span> <span id="nameTwo">Pablo</span>
       </div>
       <div id="navBarList">
         <div className="container">
