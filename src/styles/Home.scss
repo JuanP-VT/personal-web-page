@@ -29,7 +29,7 @@
 //Animated Text
 #textAnimation {
   span {
-    color: white;
+    color: rgb(87, 84, 84);
     font-size: 3rem;
   }
   strong {
@@ -103,7 +103,7 @@
       right: 10%;
       top: 15%;
       position: block;
-      color: $mainIconColor;
+      color: $socialIconColor;
       transition: all ease-in-out 400ms;
     }
   }

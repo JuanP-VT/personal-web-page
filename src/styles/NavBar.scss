@@ -47,17 +47,17 @@
     transition: all 150ms ease-in-out;
     padding: 5px;
     svg {
-      color: rgb(96, 157, 222);
+      color: $navBarIconColor;
       margin-right: 5px;
       margin-top: 3px;
       transition: all 300ms ease-in-out;
       transform: scale(1.1);
     }
     &:hover {
-      border-bottom: 3px solid rgb(93, 93, 231);
+      border-bottom: 3px solid rgb(176, 176, 255);
       transform: scale(1.1);
       svg {
-        color: rgb(11, 48, 113);
+        color: $navBarIconColorHover;
         transform: scale(1.2);
       }
     }
