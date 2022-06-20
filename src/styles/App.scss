@@ -1,7 +1,7 @@
 @use "Home";
 @use "NavBar";
+@use "About";
 @import "Variables";
-
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Permanent+Marker&display=swap");
 * {
   font-family: $fontOne;
@@ -18,9 +18,30 @@ body {
   width: 100%;
   height: 100%;
 }
+//Section Title/Header
+.sectionTitle {
+  padding: 20px;
+  font-weight: 700;
+  color: $mainTextColor;
+  .alter {
+    color: $fourthTextColor;
+  }
+  p {
+    font-size: 2.5rem;
+    position: relative;
+    &::after {
+      content: "";
+      bottom: 40%;
+      margin-left: 10px;
+      position: absolute;
+      border-bottom: $decorativeLine;
+      width: 20%;
+    }
+  }
+}
 
 #About {
-  height: 30vh;
+  height: 100vh;
   background-color: $bgcTwo;
 }
 #Skills {
