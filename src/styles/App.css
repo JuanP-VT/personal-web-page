@@ -281,6 +281,7 @@
   height: 100%;
   width: 100%;
   padding: 50px;
+  padding-left: 150px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
   gap: 300px;
@@ -291,17 +292,34 @@
   flex-direction: column;
   background-color: rgb(56, 55, 55);
   height: 400px;
+  align-items: center;
+  box-shadow: rgba(84, 76, 76, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border-radius: 10px;
 }
 #Skills .container .skillBox svg {
   justify-self: center;
-  height: 50px;
+  height: 40px;
   color: rgb(166, 64, 64);
+  margin-bottom: 20px;
 }
 #Skills .container .skillBox .title {
   padding: 5px;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   color: rgb(242, 237, 237);
   text-align: center;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+#Skills .container .skillBox .skillContainer ul li {
+  display: flex;
+  color: rgb(242, 237, 237);
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+#Skills .container .skillBox .skillContainer ul li img {
+  height: 20px;
+  margin-left: 5px;
 }
 
 * {

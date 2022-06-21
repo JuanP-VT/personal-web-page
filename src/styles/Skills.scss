@@ -4,6 +4,7 @@
     height: 100%;
     width: 100%;
     padding: 50px;
+    padding-left: 150px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
     gap: 300px;
@@ -13,17 +14,39 @@
       flex-direction: column;
       background-color: $skillCardBGC;
       height: 400px;
+      align-items: center;
+      box-shadow: rgba(84, 76, 76, 0.25) 0px 14px 28px,
+        rgba(0, 0, 0, 0.22) 0px 10px 10px;
+      border-radius: 10px;
 
       svg {
         justify-self: center;
-        height: 50px;
+        height: 40px;
         color: $fourthTextColor;
+        margin-bottom: 20px;
       }
       .title {
         padding: 5px;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         color: $mainTextColor;
         text-align: center;
+        font-weight: 800;
+        margin-bottom: 40px;
+      }
+      .skillContainer {
+        ul {
+          li {
+            display: flex;
+            color: $mainTextColor;
+            font-size: 1.2rem;
+            font-weight: 300;
+            margin-bottom: 10px;
+            img {
+              height: 20px;
+              margin-left: 5px;
+            }
+          }
+        }
       }
     }
   }
