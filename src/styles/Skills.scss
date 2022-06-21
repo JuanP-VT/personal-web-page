@@ -8,7 +8,7 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
     gap: 300px;
     .skillBox {
-      padding: 50px;
+      padding: 20px;
       display: flex;
       flex-direction: column;
       background-color: $skillCardBGC;
@@ -16,6 +16,14 @@
 
       svg {
         justify-self: center;
+        height: 50px;
+        color: $fourthTextColor;
+      }
+      .title {
+        padding: 5px;
+        font-size: 1.2rem;
+        color: $mainTextColor;
+        text-align: center;
       }
     }
   }

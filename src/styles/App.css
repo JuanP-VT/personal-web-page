@@ -286,7 +286,7 @@
   gap: 300px;
 }
 #Skills .container .skillBox {
-  padding: 50px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   background-color: rgb(56, 55, 55);
@@ -294,6 +294,14 @@
 }
 #Skills .container .skillBox svg {
   justify-self: center;
+  height: 50px;
+  color: rgb(166, 64, 64);
+}
+#Skills .container .skillBox .title {
+  padding: 5px;
+  font-size: 1.2rem;
+  color: rgb(242, 237, 237);
+  text-align: center;
 }
 
 * {

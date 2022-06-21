@@ -22,7 +22,7 @@ function Skills() {
         <div className="skillBox">
           <FontAwesomeIcon icon={faBookOpenReader} />
 
-          <p className="title">Frameworks/Libraries/Databases</p>
+          <p className="title">Frameworks/Libraries</p>
         </div>
         <div className="skillBox">
           <FontAwesomeIcon icon={faWrench} />
