@@ -11,7 +11,11 @@ import sqlIcon from "../img/skill-icons/sql.png";
 import htmlIcon from "../img/skill-icons/html.png";
 import cssIcon from "../img/skill-icons/css.png";
 import sassIcon from "../img/skill-icons/sass.png";
-
+import nodeJsIcon from "../img/skill-icons/node.png";
+import expressIcon from "../img/skill-icons/express.png";
+import mongoIcon from "../img/skill-icons/mongo.jpg";
+import jestIcon from "../img/skill-icons/jest.png";
+import reacticon from "../img/skill-icons/react.png";
 function Skills() {
   return (
     <section id="Skills">
@@ -55,8 +59,30 @@ function Skills() {
         </div>
         <div className="skillBox">
           <FontAwesomeIcon icon={faBookOpenReader} />
-
           <p className="title">Frameworks/Libraries</p>
+          <div className="skillContainer">
+            <ul>
+              <li>
+                React.JS <img src={reacticon} alt="react icon" />
+              </li>
+              <li>
+                NodeJS
+                <img src={nodeJsIcon} alt="node icon" />
+              </li>
+              <li>
+                ExpressJS
+                <img src={expressIcon} alt="expressJs icon" />
+              </li>
+              <li>
+                MongoDB
+                <img src={mongoIcon} alt="MongoDB icon" />
+              </li>
+              <li>
+                Jest
+                <img src={jestIcon} alt="Jest icon" />
+              </li>
+            </ul>
+          </div>
         </div>
         <div className="skillBox">
           <FontAwesomeIcon icon={faWrench} />
