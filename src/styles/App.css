@@ -235,6 +235,7 @@
   font-size: 1.5rem;
   font-style: italic;
   color: rgb(85, 83, 83);
+  text-align: center;
 }
 #About .container div {
   padding: 20px;
@@ -251,6 +252,8 @@
 }
 #About .container div .imgContainer {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #About .container div .imgContainer img {
   width: 300px;
@@ -259,6 +262,14 @@
   margin-left: 5%;
 }
 
+#AllTraits {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(650px, 1fr));
+}
+
+.traitContainer {
+  display: flex;
+}
 * {
   font-family: "Lato", sans-serif;
   padding: 0;

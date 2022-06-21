@@ -1,6 +1,7 @@
 import React from "react";
 import iEngineer from "../img/IEngineer.jpg";
 import iDeveloper from "../img/IDeveloper.webp";
+import selfDriven from "../img/self-driven.png";
 function About() {
   return (
     <section id="About">
@@ -20,10 +21,10 @@ function About() {
             <p>
               In the summer of 2014 a young man had to choose a path for his
               professional career, I always were a tech geek so naturally I was
-              leaning into <span>Software Engineering</span> or a related field
-              but I also had huge desire to become like my older brother, I did
-              not know much about the world or even much about myself at that
-              age so, partially blinded I went with my brother's advice to
+              leaning towards <span>Software Engineering</span> or a related
+              field but I also had huge desire to become like my older brother,
+              I did not know much about the world or even much about myself at
+              that age so, partially blinded I went with my brother's advice to
               become a<span className="highlight">Industrial Engineer</span>.
             </p>
             <br />
@@ -51,7 +52,11 @@ function About() {
           <div className="title">Becoming A Web Developer</div>
           <div className="imgContainer">
             {" "}
-            <img src={iDeveloper} alt="Computer and coffee" className="img" />
+            <img
+              src={iDeveloper}
+              alt="Developer computer and coffee"
+              className="img"
+            />
           </div>
           <div className="textContainer">
             <p>
@@ -82,10 +87,40 @@ function About() {
             It was settle <span>I would become a Developer.</span>
           </div>
         </div>
+      </div>
+      <div className="container">
         <div className="c3">
           <div className="title">Personal Traits</div>
-          <div className="imgContainer"></div>
-          <div className="textContainer"></div>
+          <div id="AllTraits">
+            {" "}
+            <div className="traitContainer">
+              <div className="imgContainer">
+                <img src={selfDriven} alt="SelfDriven Character" />
+              </div>
+              <div className="textContainer">
+                <span>Self-Driven</span>: I thought myself web development
+                thanks to the amazing effort of all the dev community creating
+                superb teaching content but at the end of the day it was me who
+                kept pushing to make this dream a reality,
+                <br /> I have trained myself to become disciplined, and this
+                have helped my a lot in my life, I set a goal and put all my
+                effort and concentration into it.
+              </div>
+            </div>
+            <div className="traitContainer">
+              <div className="imgContainer">
+                <img src={selfDriven} alt="SelfDriven Character" />
+              </div>
+              <div className="textContainer">
+                <span>Resilient</span>: this is something that i have developed
+                for my personal life and greatly enhanced my professional
+                performance too, basically resilient means to be able to
+                withstand difficult conditions while staying aware; frustration,
+                stress and conflict are situations we encounter daily and having
+                the emotional strength to deal really made me mature greatly.
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
