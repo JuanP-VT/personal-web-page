@@ -4,6 +4,7 @@ import iDeveloper from "../img/IDeveloper.webp";
 import selfDriven from "../img/self-driven.png";
 import resilient from "../img/resilient.png";
 import relational from "../img/relational.jpg";
+import writing from "../img/writing.png";
 function About() {
   return (
     <section id="About">
@@ -135,6 +136,18 @@ function About() {
                 being with emotions made me be more emphatic, take
                 offenses/criticism less personal and overall made me someone
                 nice to be around with.
+              </div>
+            </div>
+            <div className="traitContainer">
+              <div className="imgContainer">
+                <img src={writing} alt="SelfDriven Character" />
+              </div>
+              <div className="textContainer">
+                <span>Communication And Writing Skills </span>:As a industrial
+                engineer one of my main activities were writing status reports
+                and process/quality documentation. I had to be very concise and
+                brief when reporting to a manager or explain with great detail
+                to an operator/technician.
               </div>
             </div>
           </div>
