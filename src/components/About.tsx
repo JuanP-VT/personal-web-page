@@ -1,5 +1,5 @@
 import React from "react";
-
+import iEngineer from "../img/IEngineer.jpg";
 function About() {
   return (
     <section id="About">
@@ -10,8 +10,7 @@ function About() {
       </div>
       <div className="container">
         <div className="c1">
-          <div className="title">Background As Industrial Engineer</div>
-          <div className="imgContainer"></div>
+          <div className="title">Background As A Industrial Engineer</div>
           <div className="textContainer">
             <p>
               In the summer of 2014 a young man had to choose a path for his
@@ -41,6 +40,9 @@ function About() {
             </p>
             <br />
             <p>But Im resilient and knew I had to do something about it...</p>
+          </div>
+          <div className="imgContainer">
+            <img src={iEngineer} alt="IndustrialEngineer" className="img" />
           </div>
         </div>
         <div className="c2">
