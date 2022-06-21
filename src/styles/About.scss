@@ -1,4 +1,28 @@
 @import "Variables";
 
 #About {
+  .container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
+    .title {
+      font-size: 1.5rem;
+      font-style: italic;
+      color: $thirdTextColor;
+    }
+    div {
+      padding: 20px;
+      .textContainer {
+        color: $mainTextColor;
+        font-size: 1.2rem !important;
+        span {
+          font-weight: 900;
+          color: $secondaryTextColor;
+          padding-left: 2px;
+          padding-right: 2px;
+        }
+      }
+    }
+  }
 }
