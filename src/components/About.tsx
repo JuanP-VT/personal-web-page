@@ -2,6 +2,8 @@ import React from "react";
 import iEngineer from "../img/IEngineer.jpg";
 import iDeveloper from "../img/IDeveloper.webp";
 import selfDriven from "../img/self-driven.png";
+import resilient from "../img/resilient.png";
+import relational from "../img/relational.jpg";
 function About() {
   return (
     <section id="About">
@@ -102,22 +104,37 @@ function About() {
                 thanks to the amazing effort of all the dev community creating
                 superb teaching content but at the end of the day it was me who
                 kept pushing to make this dream a reality,
-                <br /> I have trained myself to become disciplined, and this
-                have helped my a lot in my life, I set a goal and put all my
-                effort and concentration into it.
+                <br /> I have trained myself to become very disciplined, this
+                have helped my a lot in my life, if I set a goal all my effort
+                and intention goes towards it.
               </div>
             </div>
             <div className="traitContainer">
               <div className="imgContainer">
-                <img src={selfDriven} alt="SelfDriven Character" />
+                <img src={resilient} alt="SelfDriven Character" />
               </div>
               <div className="textContainer">
-                <span>Resilient</span>: this is something that i have developed
+                <span>Resilient</span>: This is something that i have developed
                 for my personal life and greatly enhanced my professional
                 performance too, basically resilient means to be able to
                 withstand difficult conditions while staying aware; frustration,
                 stress and conflict are situations we encounter daily and having
                 the emotional strength to deal really made me mature greatly.
+              </div>
+            </div>
+            <div className="traitContainer">
+              <div className="imgContainer">
+                <img src={relational} alt="SelfDriven Character" />
+              </div>
+              <div className="textContainer">
+                <span>Relational</span>: How to treat people is another amazing
+                topic, I have spend time learning about human interaction and
+                trying to improve my social skills (i were very introvert).
+                <br /> This have proven to be on of the best skills i could
+                develope , understand that the people I work are complex human
+                being with emotions made me be more emphatic, take
+                offenses/criticism less personal and overall made me someone
+                nice to be around with.
               </div>
             </div>
           </div>

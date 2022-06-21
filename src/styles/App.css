@@ -270,6 +270,13 @@
 .traitContainer {
   display: flex;
 }
+.traitContainer .imgContainer {
+  transform: scale(0.8);
+}
+.traitContainer .textContainer {
+  align-self: center;
+}
+
 * {
   font-family: "Lato", sans-serif;
   padding: 0;

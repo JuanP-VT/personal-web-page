@@ -46,7 +46,9 @@
 .traitContainer {
   display: flex;
   .imgContainer {
+    transform: scale(0.8);
   }
   .textContainer {
+    align-self: center;
   }
 }
