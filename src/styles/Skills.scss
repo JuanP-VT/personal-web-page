@@ -1,0 +1,22 @@
+@import "Variables";
+#Skills {
+  .container {
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
+    gap: 300px;
+    .skillBox {
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      background-color: $skillCardBGC;
+      height: 400px;
+
+      svg {
+        justify-self: center;
+      }
+    }
+  }
+}

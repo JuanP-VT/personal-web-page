@@ -1,6 +1,7 @@
 @use "Home";
 @use "NavBar";
 @use "About";
+@use "Skills";
 @import "Variables";
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Permanent+Marker&display=swap");
 * {
@@ -11,7 +12,7 @@
   scroll-behavior: smooth;
 }
 body {
-  height: 200vh;
+  height: 400vh;
 }
 #App {
   position: relative;
@@ -47,7 +48,7 @@ body {
   background-color: $bgcTwo;
 }
 #Skills {
-  height: 50vh;
+  height: 100vh;
   background-color: $bgcOne;
 }
 #ShowCase {

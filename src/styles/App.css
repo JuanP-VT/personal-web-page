@@ -277,6 +277,25 @@
   align-self: center;
 }
 
+#Skills .container {
+  height: 100%;
+  width: 100%;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
+  gap: 300px;
+}
+#Skills .container .skillBox {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(56, 55, 55);
+  height: 400px;
+}
+#Skills .container .skillBox svg {
+  justify-self: center;
+}
+
 * {
   font-family: "Lato", sans-serif;
   padding: 0;
@@ -286,7 +305,7 @@
 }
 
 body {
-  height: 200vh;
+  height: 400vh;
 }
 
 #App {
@@ -323,7 +342,7 @@ body {
 }
 
 #Skills {
-  height: 50vh;
+  height: 100vh;
   background-color: rgb(12, 12, 12);
 }
 

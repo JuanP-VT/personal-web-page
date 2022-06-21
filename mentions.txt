@@ -1,22 +1,23 @@
 <a href="https://www.flaticon.com/free-icons/home" title="home icons">Home icons created by Dave Gandy - Flaticon</a>
 <a href="https://www.freepik.com/vectors/team-collaboration">Team collaboration vector created by storyset - www.freepik.com</a>
 
-In the summer of 2014 a young man had to choose a path for his professional career, I always were a tech geek so naturally I was leaning
-into software engineering or a related field but I also had huge desire to become like my older brother, I did not know much about the world
-or even much about myself at that age so, partially blinded I went with my brother's advice to become a Industrial Engineer.
-Although at some points I felt many topics were not very interesting my discipline kept me strong and boosted through my education.
-By the end of 2018 I got my Bachelors Degree, flew to Tijuana(one of the biggest industrial cities in the country) and worked there for
-nearly two years.
-Despite doing fine I felt very unfulfilled by my professional life and  the overall environment of the manufacturing industry,
-the next few months my life felt very gray, the choice that a unexperienced sprout took many years back, felt like chains that would
-keep me bound to that situation.
-But Im resilient and knew I had to do something about it..
 
+jsIcon
+<a href="https://www.flaticon.com/free-icons/javascript" title="javascript icons">Javascript icons created by Freepik - Flaticon</a>
+tsIcon
+<a href="https://www.flaticon.com/free-icons/typescript" title="typescript icons">Typescript icons created by Freepik - Flaticon</a>
+sqlIcon
+<a href="https://www.flaticon.com/free-icons/sql" title="sql icons">Sql icons created by Pixel perfect - Flaticon</a>
+htmlIcon
+<a href="https://www.flaticon.com/free-icons/html" title="html icons">Html icons created by Freepik - Flaticon</a>
+cssIcon
+<a href="https://www.flaticon.com/free-icons/css" title="css icons">Css icons created by Pixel perfect - Flaticon</a>
+sassIcon
+<a href="https://www.flaticon.com/free-icons/sass" title="sass icons">Sass icons created by Freepik - Flaticon</a>
+reactIcon
+<a href="https://www.flaticon.com/free-icons/nodejs" title="nodejs icons">Nodejs icons created by Freepik - Flaticon</a>
+nodeIcon
+<a href="https://www.flaticon.com/free-icons/nodejs" title="nodejs icons">Nodejs icons created by Freepik - Flaticon</a>
+gitIcon
+<a href="https://www.flaticon.com/free-icons/git" title="git icons">Git icons created by Creatype - Flaticon</a>
 
-During that time one of my closest friends lived a very similar situation, he was working as a plant maintenance engineer and felt very
-unsatisfied, he later switched fields and became a software tester.
-His new situation and work environment put him in a good mood so he tried to convince me to leave the manufacturing field and become a developer, but
-at that time I wasn't ready to drop nearly 7 years of education and experience.
-But the idea stood with me, I come from a  tech background, always were interested in videogames, technology, computers and even had some coding experience with C (school education) and
-Lua(i used code in Minecraft's computercraft mod and I loved it), after a few months of research,talks and analysis it was clear, that idea became
-a light ray that ignited my ambition for my professional life. It was settle i would become a Developer.
