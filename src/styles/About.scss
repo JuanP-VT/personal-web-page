@@ -16,7 +16,7 @@
       padding: 20px;
       .textContainer {
         color: $mainTextColor;
-        font-size: 1.2rem;
+        font-size: 1.35rem;
 
         span {
           font-weight: 900;
@@ -46,7 +46,7 @@
 .traitContainer {
   display: flex;
   .imgContainer {
-    transform: scale(0.8);
+    transform: scale(0.85);
   }
   .textContainer {
     align-self: center;

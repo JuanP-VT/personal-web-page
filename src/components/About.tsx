@@ -72,8 +72,8 @@ function About() {
             <p>
               His new situation and work environment put him in a good mood so
               he tried to convince me to leave the manufacturing field and
-              become a <span>developer</span>, but at that time I wasn't ready
-              to drop nearly 7 years of education and experience.
+              become a <span>developer</span>, at that time I wasn't ready to
+              drop nearly 7 years of education and experience.
             </p>
             <p>
               <br />
@@ -102,12 +102,13 @@ function About() {
               </div>
               <div className="textContainer">
                 <span>Self-Driven</span>: I thought myself web development
-                thanks to the amazing effort of all the dev community creating
-                superb teaching content but at the end of the day it was me who
-                kept pushing to make this dream a reality,
-                <br /> I have trained myself to become very disciplined, this
-                have helped my a lot in my life, if I set a goal all my effort
-                and intention goes towards it.
+                thanks to the amazing effort of all the
+                <span>dev community</span> creating superb teaching content but
+                at the end of the day it was me who kept pushing to make this
+                dream a reality,
+                <br /> I have trained myself to become very
+                <span>disciplined</span>, this have helped my a lot in my life,
+                when I set a goal all my effort and intention goes towards it.
               </div>
             </div>
             <div className="traitContainer">
@@ -118,9 +119,10 @@ function About() {
                 <span>Resilient</span>: This is something that i have developed
                 for my personal life and greatly enhanced my professional
                 performance too, basically resilient means to be able to
-                withstand difficult conditions while staying aware; frustration,
-                stress and conflict are situations we encounter daily and having
-                the emotional strength to deal really made me mature greatly.
+                withstand difficult conditions while staying <span>aware</span>,
+                frustration, stress and conflict are situations we encounter
+                daily and having the <span>emotional strength</span> to deal
+                with, really made me mature greatly.
               </div>
             </div>
             <div className="traitContainer">
@@ -133,9 +135,9 @@ function About() {
                 trying to improve my social skills (i were very introvert).
                 <br /> This have proven to be on of the best skills i could
                 develope , understand that the people I work are complex human
-                being with emotions made me be more emphatic, take
-                offenses/criticism less personal and overall made me someone
-                nice to be around with.
+                being with emotions made me be more <span>emphatic</span>, take
+                offenses/criticism <span>less personal</span> and overall made
+                me someone nicer to be around with.
               </div>
             </div>
             <div className="traitContainer">
@@ -143,11 +145,12 @@ function About() {
                 <img src={writing} alt="SelfDriven Character" />
               </div>
               <div className="textContainer">
-                <span>Communication And Writing Skills </span>:As a industrial
+                <span>Communication And Writing Skills</span>: As a industrial
                 engineer one of my main activities were writing status reports
-                and process/quality documentation. I had to be very concise and
-                brief when reporting to a manager or explain with great detail
-                to an operator/technician.
+                and a lot of process/quality <span>documentation</span>. I had
+                to be very concise and brief when reporting to a manager or
+                explain with great <span>detail</span> to an
+                operator/technician.
               </div>
             </div>
           </div>

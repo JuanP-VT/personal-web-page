@@ -20,7 +20,7 @@
   width: 50%;
   display: inline-flex;
   font-size: 2rem;
-  color: rgb(227, 225, 225);
+  color: rgb(242, 237, 237);
   font-weight: 650;
   justify-content: center;
   text-align: center;
@@ -52,7 +52,7 @@
   margin-top: 30px;
 }
 #Home .container .btnContainer a {
-  color: rgb(227, 225, 225);
+  color: rgb(242, 237, 237);
   font-family: "Lato", sans-serif;
   display: flex;
   padding: 25px;
@@ -72,7 +72,7 @@
 }
 #Home .container .btnContainer .cv {
   background-color: transparent;
-  color: rgb(227, 225, 225);
+  color: rgb(242, 237, 237);
   border: 3px solid rgb(166, 43, 43);
   margin-right: 20px;
 }
@@ -141,7 +141,7 @@
   letter-spacing: 3px;
   font-size: 1.3rem;
   font-weight: 700;
-  color: rgb(227, 225, 225);
+  color: rgb(242, 237, 237);
 }
 .socials .Scontainer svg {
   height: 40px;
@@ -171,7 +171,7 @@
 }
 
 #navBarName {
-  color: rgb(227, 225, 225);
+  color: rgb(242, 237, 237);
   text-align: center;
   width: 40%;
   font-weight: 600;
@@ -181,7 +181,7 @@
 }
 #navBarName #nameOne {
   font-family: "Permanent Marker", cursive;
-  color: rgb(227, 225, 225);
+  color: rgb(242, 237, 237);
 }
 #navBarName #nameTwo {
   font-family: "Permanent Marker", cursive;
@@ -241,8 +241,8 @@
   padding: 20px;
 }
 #About .container div .textContainer {
-  color: rgb(227, 225, 225);
-  font-size: 1.2rem;
+  color: rgb(242, 237, 237);
+  font-size: 1.35rem;
 }
 #About .container div .textContainer span {
   font-weight: 900;
@@ -271,7 +271,7 @@
   display: flex;
 }
 .traitContainer .imgContainer {
-  transform: scale(0.8);
+  transform: scale(0.85);
 }
 .traitContainer .textContainer {
   align-self: center;
@@ -299,7 +299,7 @@ body {
   padding: 20px;
   font-weight: 700;
   padding-top: 60px;
-  color: rgb(227, 225, 225);
+  color: rgb(242, 237, 237);
 }
 .sectionTitle .alter {
   color: rgb(166, 64, 64);
