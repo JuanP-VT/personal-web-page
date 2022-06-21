@@ -245,17 +245,16 @@
 }
 #About .container div .textContainer span {
   font-weight: 900;
-  color: rgb(161, 25, 25);
+  color: rgb(166, 64, 64);
   padding-left: 2px;
   padding-right: 2px;
 }
 #About .container div .imgContainer {
   display: flex;
-  justify-items: center;
 }
 #About .container div .imgContainer img {
-  width: 25%;
-  height: 25%;
+  width: 300px;
+  height: 250px;
   border-radius: 20%;
   margin-left: 5%;
 }
@@ -281,6 +280,7 @@ body {
 .sectionTitle {
   padding: 20px;
   font-weight: 700;
+  padding-top: 60px;
   color: rgb(227, 225, 225);
 }
 .sectionTitle .alter {

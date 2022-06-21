@@ -1,5 +1,6 @@
 import React from "react";
 import iEngineer from "../img/IEngineer.jpg";
+import iDeveloper from "../img/IDeveloper.webp";
 function About() {
   return (
     <section id="About">
@@ -11,6 +12,10 @@ function About() {
       <div className="container">
         <div className="c1">
           <div className="title">Background As A Industrial Engineer</div>
+          <div className="imgContainer">
+            <img src={iEngineer} alt="IndustrialEngineer" className="img" />
+          </div>
+
           <div className="textContainer">
             <p>
               In the summer of 2014 a young man had to choose a path for his
@@ -41,14 +46,41 @@ function About() {
             <br />
             <p>But Im resilient and knew I had to do something about it...</p>
           </div>
-          <div className="imgContainer">
-            <img src={iEngineer} alt="IndustrialEngineer" className="img" />
-          </div>
         </div>
         <div className="c2">
           <div className="title">Becoming A Web Developer</div>
-          <div className="imgContainer"></div>
-          <div className="textContainer"></div>
+          <div className="imgContainer">
+            {" "}
+            <img src={iDeveloper} alt="Computer and coffee" className="img" />
+          </div>
+          <div className="textContainer">
+            <p>
+              During that time one of my closest friends lived a very similar
+              situation, he was working as a plant maintenance engineer and felt
+              very unsatisfied, he later switched fields and became a software
+              tester.
+            </p>
+            <br />
+            <p>
+              His new situation and work environment put him in a good mood so
+              he tried to convince me to leave the manufacturing field and
+              become a <span>developer</span>, but at that time I wasn't ready
+              to drop nearly 7 years of education and experience.
+            </p>
+            <p>
+              <br />
+              But the idea stood with me, I come from a
+              <span>tech background</span>, always were interested in
+              videogames, technology, computers and even had some{" "}
+              <span>coding</span>
+              experience with C (school education) and Lua (I used code in
+              Minecraft's computercraft mod and I loved it), after a few months
+              of research,talks and analysis it was clear, that idea became a
+              light ray that ignited my ambition for my professional life.
+            </p>
+            <br />
+            It was settle <span>I would become a Developer.</span>
+          </div>
         </div>
         <div className="c3">
           <div className="title">Personal Traits</div>
