@@ -295,12 +295,14 @@
   align-items: center;
   box-shadow: rgba(84, 76, 76, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
   border-radius: 10px;
+  transition: all 200ms ease-in-out;
 }
 #Skills .container .skillBox svg {
   justify-self: center;
   height: 40px;
   color: rgb(166, 64, 64);
   margin-bottom: 20px;
+  transition: all 400ms ease-in-out;
 }
 #Skills .container .skillBox .title {
   padding: 5px;
@@ -319,6 +321,13 @@
 #Skills .container .skillBox .skillContainer ul li img {
   height: 20px;
   margin-left: 5px;
+}
+#Skills .container .skillBox:hover {
+  transform: translateY(-20px);
+  border-bottom: 3px solid rgb(200, 201, 127);
+}
+#Skills .container .skillBox:hover svg {
+  color: rgb(200, 201, 127);
 }
 
 * {

@@ -19,6 +19,8 @@ import reacticon from "../img/skill-icons/react.png";
 import gitIcon from "../img/skill-icons/git.png";
 import webpackIcon from "../img/skill-icons/webpack.png";
 import canvas from "../img/skill-icons/canva.png";
+import wslIcon from "../img/skill-icons/wsl.jpg";
+import linuxIcon from "../img/skill-icons/Linux.jpg";
 
 function Skills() {
   return (
@@ -95,15 +97,23 @@ function Skills() {
           <div className="skillContainer">
             <ul>
               <li>
-                Git <img src={gitIcon} alt="react icon" />
+                Git <img src={gitIcon} alt="git icon" />
               </li>
               <li>
                 Webpack
-                <img src={webpackIcon} alt="node icon" />
+                <img src={webpackIcon} alt="webpack icon" />
               </li>
               <li>
                 Canva
-                <img src={canvas} alt="expressJs icon" />
+                <img src={canvas} alt="canva icon" />
+              </li>
+              <li>
+                WSL
+                <img src={wslIcon} alt="wsl icon" />
+              </li>
+              <li>
+                Ubuntu/Linux
+                <img src={linuxIcon} alt="linux icon" />
               </li>
             </ul>
           </div>

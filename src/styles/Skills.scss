@@ -18,12 +18,14 @@
       box-shadow: rgba(84, 76, 76, 0.25) 0px 14px 28px,
         rgba(0, 0, 0, 0.22) 0px 10px 10px;
       border-radius: 10px;
+      transition: all 200ms ease-in-out;
 
       svg {
         justify-self: center;
         height: 40px;
         color: $fourthTextColor;
         margin-bottom: 20px;
+        transition: all 400ms ease-in-out;
       }
       .title {
         padding: 5px;
@@ -45,6 +47,13 @@
               margin-left: 5px;
             }
           }
+        }
+      }
+      &:hover {
+        transform: translateY(-20px);
+        border-bottom: $decorativeLine;
+        svg {
+          color: rgb(200, 201, 127);
         }
       }
     }
