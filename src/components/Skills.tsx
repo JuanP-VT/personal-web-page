@@ -16,6 +16,10 @@ import expressIcon from "../img/skill-icons/express.png";
 import mongoIcon from "../img/skill-icons/mongo.jpg";
 import jestIcon from "../img/skill-icons/jest.png";
 import reacticon from "../img/skill-icons/react.png";
+import gitIcon from "../img/skill-icons/git.png";
+import webpackIcon from "../img/skill-icons/webpack.png";
+import canvas from "../img/skill-icons/canva.png";
+
 function Skills() {
   return (
     <section id="Skills">
@@ -88,6 +92,21 @@ function Skills() {
           <FontAwesomeIcon icon={faWrench} />
 
           <p className="title">Technologies</p>
+          <div className="skillContainer">
+            <ul>
+              <li>
+                Git <img src={gitIcon} alt="react icon" />
+              </li>
+              <li>
+                Webpack
+                <img src={webpackIcon} alt="node icon" />
+              </li>
+              <li>
+                Canva
+                <img src={canvas} alt="expressJs icon" />
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
