@@ -280,8 +280,8 @@
 #Skills .container {
   height: 100%;
   width: 100%;
+  justify-content: center;
   padding: 50px;
-  padding-left: 150px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
   gap: 300px;
@@ -296,6 +296,7 @@
   box-shadow: rgba(84, 76, 76, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
   border-radius: 10px;
   transition: all 200ms ease-in-out;
+  cursor: pointer;
 }
 #Skills .container .skillBox svg {
   justify-self: center;
@@ -376,7 +377,7 @@ body {
 }
 
 #Skills {
-  height: 100vh;
+  height: 100%;
   background-color: rgb(12, 12, 12);
 }
 
