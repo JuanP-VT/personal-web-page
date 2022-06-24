@@ -38,7 +38,25 @@ function ShowCase() {
       });
     }
     playVideo();
+    // Change text titles
+    const title = document.querySelector("#projectName") as HTMLDivElement;
+    if (currentIndex === 0) {
+      title.textContent = "Etch A Sketch";
+    }
+    if (currentIndex === 1) {
+      title.textContent = "Curriculum Creator";
+    }
+    if (currentIndex === 2) {
+      title.textContent = "Fortnite Shop";
+    }
+    if (currentIndex === 3) {
+      title.textContent = "Library App";
+    }
+    if (currentIndex === 4) {
+      title.textContent = "Activity Tracker ";
+    }
   }, [currentIndex, maxIndex]);
+
   return (
     <section id="ShowCase">
       <div className="sectionTitle">
@@ -50,7 +68,6 @@ function ShowCase() {
       <div id="carousel">
         <div className="txtContainer">
           <h1 id="projectName">Project Name</h1>
-          <h3 id="projectDesc">Description</h3>
         </div>
         <div id="videoSliderContainer">
           <img src={tvIcn}></img>
