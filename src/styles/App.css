@@ -427,6 +427,7 @@
   color: rgb(242, 237, 237);
   width: 100%;
   text-align: center;
+  padding: 10px;
 }
 #projectContainer .projectCard .madewith {
   display: flex;
@@ -464,6 +465,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 400ms ease-in-out;
+}
+#projectContainer #projectCardButtons a:hover {
+  transform: scale(1.1);
+  background-color: white;
+}
+#projectContainer #projectCardButtons a:hover p {
+  color: red;
+}
+#projectContainer #projectCardButtons a:hover svg {
+  color: red;
 }
 #projectContainer #projectCardButtons a .container {
   display: flex;

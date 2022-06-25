@@ -20,7 +20,7 @@ function AllProjects() {
         <ProjectCard
           coverImgSrc={Project11}
           projectName="Personal WebPage"
-          description="desc"
+          description="My Personal Webpage showcases my work as a developer, I built this site from scratch with CRA"
           date="June 2022"
           demoURL="s"
           githubUrl=""

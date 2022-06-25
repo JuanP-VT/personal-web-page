@@ -42,6 +42,7 @@
       color: $mainTextColor;
       width: 100%;
       text-align: center;
+      padding: 10px;
     }
     .madewith {
       display: flex;
@@ -83,6 +84,17 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      transition: all 400ms ease-in-out;
+      &:hover {
+        transform: scale(1.1);
+        background-color: white;
+        p {
+          color: red;
+        }
+        svg {
+          color: red;
+        }
+      }
       .container {
         display: flex;
         p {
