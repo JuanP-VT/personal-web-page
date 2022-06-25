@@ -32,7 +32,6 @@ function ShowCase() {
         element.classList.remove("videoActive");
         if (currentIndex >= maxIndex) {
           setCurrentIndex(0);
-          console.log("maxindex");
           return;
         }
         const newIndex = currentIndex + 1;
@@ -73,8 +72,6 @@ function ShowCase() {
         </div>
         <div id="videoSliderContainer">
           <img src={tvIcn} alt="Tv background"></img>
-          <FontAwesomeIcon icon={faArrowLeft} className="left" />
-          <FontAwesomeIcon icon={faArrowRight} className="right" />
 
           <div className="videoSlider">
             {" "}
