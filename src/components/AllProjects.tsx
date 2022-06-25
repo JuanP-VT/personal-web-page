@@ -27,6 +27,39 @@ function AllProjects() {
           icon1={tsIcon}
           icon2={react}
           icon3={sassIcon}
+        />{" "}
+        <ProjectCard
+          coverImgSrc={Project11}
+          projectName="Personal WebPage"
+          description="My Personal Webpage showcases my work as a developer, I built this site from scratch with CRA"
+          date="June 2022"
+          demoURL="s"
+          githubUrl=""
+          icon1={tsIcon}
+          icon2={react}
+          icon3={sassIcon}
+        />{" "}
+        <ProjectCard
+          coverImgSrc={Project11}
+          projectName="Personal WebPage"
+          description="My Personal Webpage showcases my work as a developer, I built this site from scratch with CRA"
+          date="June 2022"
+          demoURL="s"
+          githubUrl=""
+          icon1={tsIcon}
+          icon2={react}
+          icon3={sassIcon}
+        />{" "}
+        <ProjectCard
+          coverImgSrc={Project11}
+          projectName="Personal WebPage"
+          description="My Personal Webpage showcases my work as a developer, I built this site from scratch with CRA"
+          date="June 2022"
+          demoURL="s"
+          githubUrl=""
+          icon1={tsIcon}
+          icon2={react}
+          icon3={sassIcon}
         />
       </div>
     </section>

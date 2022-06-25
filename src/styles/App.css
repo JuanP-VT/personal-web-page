@@ -384,6 +384,10 @@
 }
 
 #projectContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
+  justify-content: center;
+  gap: 80px;
   padding: 40px;
 }
 #projectContainer .projectCard {
