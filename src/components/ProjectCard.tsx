@@ -1,5 +1,6 @@
 import React from "react";
 import MadeWith from "./MadeWith";
+import ProjectCardButtons from "./ProjectCardButtons";
 
 type Props = {
   coverImgSrc: string;
@@ -25,6 +26,8 @@ function ProjectCard({
   icon4,
   icon5,
   date,
+  demoURL,
+  githubUrl,
 }: Props) {
   return (
     <div className="projectCard">
@@ -41,6 +44,7 @@ function ProjectCard({
         icon5={icon5}
       />
       <p className="created">{date}</p>
+      <ProjectCardButtons githubUrl={githubUrl} demoUrl={demoURL} />
     </div>
   );
 }
