@@ -21,7 +21,7 @@ function AllProjects() {
       <div id="projectContainer">
         <ProjectCard
           coverImgSrc={Project11}
-          name="name"
+          projectName="Personal WebPage"
           description="desc"
           date="June 2022"
           demoURL="s"

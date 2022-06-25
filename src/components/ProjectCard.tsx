@@ -2,7 +2,7 @@ import React from "react";
 
 type Props = {
   coverImgSrc: string;
-  name: string;
+  projectName: string;
   description: string;
   icon1?: string;
   icon2?: string;
@@ -14,8 +14,31 @@ type Props = {
   githubUrl: string;
 };
 
-function ProjectCard({}: Props) {
-  return <div className="projectCard">ProjectCard</div>;
+function ProjectCard({
+  coverImgSrc,
+  projectName,
+  description,
+  icon1,
+  icon2,
+  icon3,
+  icon4,
+  icon5,
+}: Props) {
+  return (
+    <div className="projectCard">
+      <div className="imgContainer">
+        <img src={coverImgSrc} alt="Project Demo" />
+      </div>
+      <p className="name">{projectName}</p>
+      <p className="description">{description}</p>
+      <div className="madewith">
+        <p>Made with:</p>
+        <div className="skills">
+          <img src={icon1} alt="icon" />
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default ProjectCard;
