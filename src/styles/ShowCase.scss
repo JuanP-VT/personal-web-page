@@ -7,9 +7,11 @@
   padding: 40px;
 
   #projectName {
+    letter-spacing: 8px;
+    font-family: $fontTwo;
     color: $mainTextColor;
     font-size: 2.5rem;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
   #projectDesc {
     color: $mainTextColor;
