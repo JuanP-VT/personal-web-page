@@ -24,6 +24,27 @@
       height: 100%;
       z-index: 2;
     }
+    svg {
+      color: rgb(61, 61, 61);
+      position: absolute;
+      height: 20px;
+      z-index: 2;
+      padding: 10px;
+      border-radius: 10%;
+      cursor: pointer;
+
+      &:hover {
+        background-color: rgba(163, 163, 163, 0.8);
+      }
+    }
+    .left {
+      left: 5;
+      top: 40%;
+    }
+    .right {
+      top: 40%;
+      right: 1%;
+    }
     .videoSlider {
       position: relative;
       width: 96%;

@@ -358,6 +358,26 @@
   height: 100%;
   z-index: 2;
 }
+#carousel #videoSliderContainer svg {
+  color: rgb(61, 61, 61);
+  position: absolute;
+  height: 20px;
+  z-index: 2;
+  padding: 10px;
+  border-radius: 10%;
+  cursor: pointer;
+}
+#carousel #videoSliderContainer svg:hover {
+  background-color: rgba(163, 163, 163, 0.8);
+}
+#carousel #videoSliderContainer .left {
+  left: 5;
+  top: 40%;
+}
+#carousel #videoSliderContainer .right {
+  top: 40%;
+  right: 1%;
+}
 #carousel #videoSliderContainer .videoSlider {
   position: relative;
   width: 96%;

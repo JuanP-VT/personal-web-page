@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import cvAppVid from "../video/cv-app.mp4";
 import sketchVid from "../video/etch-a-sketch.mp4";
 import libraryVid from "../video/library.mp4";
@@ -70,7 +72,10 @@ function ShowCase() {
           <h1 id="projectName">Project Name</h1>
         </div>
         <div id="videoSliderContainer">
-          <img src={tvIcn}></img>
+          <img src={tvIcn} alt="Tv background"></img>
+          <FontAwesomeIcon icon={faArrowLeft} className="left" />
+          <FontAwesomeIcon icon={faArrowRight} className="right" />
+
           <div className="videoSlider">
             {" "}
             <video src={sketchVid} muted={true} data-index={0}></video>
