@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEye } from "@fortawesome/free-solid-svg-icons";
+import { faCode, faEye } from "@fortawesome/free-solid-svg-icons";
 type Props = {
   demoUrl: string;
   githubUrl: string;
@@ -11,8 +11,14 @@ function ProjectCardButtons({ githubUrl, demoUrl }: Props) {
     <div id="projectCardButtons">
       <a href={demoUrl}>
         <div className="container">
-          <p>Demo</p>
           <FontAwesomeIcon icon={faEye} />
+          <p>Demo</p>
+        </div>
+      </a>
+      <a href={githubUrl}>
+        <div className="container">
+          <FontAwesomeIcon icon={faCode} />
+          <p>GitHub</p>
         </div>
       </a>
     </div>
