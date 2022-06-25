@@ -7,9 +7,7 @@ import htmlIcon from "../img/skill-icons/html.png";
 import sassIcon from "../img/skill-icons/sass.png";
 import react from "../img/skill-icons/react.png";
 function AllProjects() {
-  useEffect(() => {
-    console.log(Project11);
-  }, []);
+  useEffect(() => {}, []);
   return (
     <section id="AllProjects">
       <div className="sectionTitle">

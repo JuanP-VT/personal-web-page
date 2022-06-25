@@ -8,7 +8,7 @@ type Props = {
   icon5?: string;
 };
 
-function Madewith({ icon1, icon2, icon3, icon4, icon5 }: Props) {
+function MadeWith({ icon1, icon2, icon3, icon4, icon5 }: Props) {
   if (icon5 !== undefined) {
     return (
       <div className="madewith">
@@ -79,4 +79,4 @@ function Madewith({ icon1, icon2, icon3, icon4, icon5 }: Props) {
   );
 }
 
-export default Madewith;
+export default MadeWith;

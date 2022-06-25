@@ -1,5 +1,5 @@
 import React from "react";
-import Madewith from "./Madewith";
+import MadeWith from "./MadeWith";
 
 type Props = {
   coverImgSrc: string;
@@ -24,6 +24,7 @@ function ProjectCard({
   icon3,
   icon4,
   icon5,
+  date,
 }: Props) {
   return (
     <div className="projectCard">
@@ -32,13 +33,14 @@ function ProjectCard({
       </div>
       <p className="name">{projectName}</p>
       <p className="description">{description}</p>
-      <Madewith
+      <MadeWith
         icon1={icon1}
         icon2={icon2}
         icon3={icon3}
         icon4={icon4}
         icon5={icon5}
       />
+      <p className="created">{date}</p>
     </div>
   );
 }

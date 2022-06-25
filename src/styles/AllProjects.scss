@@ -22,14 +22,18 @@
       }
     }
     .name {
+      font-weight: 600;
       font-size: 1.5rem;
       color: $mainTextColor;
       width: 100%;
       text-align: center;
+      margin-bottom: 10px;
     }
     .description {
+      font-weight: 600;
       font-style: italic;
       margin-top: 10px;
+      margin-bottom: 10px;
       color: $mainTextColor;
       width: 100%;
       text-align: center;
@@ -37,6 +41,8 @@
     .madewith {
       display: flex;
       p {
+        font-weight: 600;
+
         color: $mainTextColor;
         margin-right: 10px;
       }
@@ -46,5 +52,10 @@
         }
       }
     }
+  }
+  .created {
+    margin-bottom: 10px;
+    color: $mainTextColor;
+    font-weight: 600;
   }
 }
