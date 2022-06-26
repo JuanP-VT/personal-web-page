@@ -148,7 +148,47 @@ function AllProjects() {
           icon1={jsIcon}
           icon2={htmlIcon}
           icon3={cssIcon}
-          icon4={webpackIcon}
+        />
+        <ProjectCard
+          coverImgSrc={project04}
+          projectName="Rock Paper Scissors Game"
+          description="Best of fives rock paper scissors vs the cpu"
+          date="February 2022"
+          demoURL="https://juanp-vt.github.io/Rock-Paper-Scissors/"
+          githubUrl="https://github.com/JuanP-VT/Rock-Paper-Scissors"
+          icon1={jsIcon}
+          icon2={htmlIcon}
+          icon3={cssIcon}
+        />
+        <ProjectCard
+          coverImgSrc={project03}
+          projectName="Admin Dashboard"
+          description="Replicates a web dashboard structure"
+          date="February 2022"
+          demoURL="https://juanp-vt.github.io/Admin-Dashboard/"
+          githubUrl="https://github.com/JuanP-VT/Admin-Dashboard"
+          icon1={htmlIcon}
+          icon2={cssIcon}
+        />
+        <ProjectCard
+          coverImgSrc={project02}
+          projectName="Sign Up Page"
+          description="Replicates a sign up webpage"
+          date="February 2022"
+          demoURL="https://juanp-vt.github.io/Sign-up-page/"
+          githubUrl="https://github.com/JuanP-VT/Sign-up-page"
+          icon1={htmlIcon}
+          icon2={cssIcon}
+        />
+        <ProjectCard
+          coverImgSrc={project01}
+          projectName="Landing Page"
+          description="Replicates a landing webpage"
+          date="January 2022"
+          demoURL="https://juanp-vt.github.io/Landing-page/"
+          githubUrl="https://github.com/JuanP-VT/Landing-page"
+          icon1={htmlIcon}
+          icon2={cssIcon}
         />
       </div>
     </section>
