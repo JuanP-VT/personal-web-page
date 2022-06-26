@@ -241,14 +241,13 @@
   height: 100%;
   width: 30px;
   left: 0;
-  right: unset;
+  transition: all 400ms ease-in-out;
 }
 #navBarList #switchColor.active {
   background-color: rgb(205, 141, 2);
 }
 #navBarList #switchColor.active::after {
-  right: 0;
-  left: unset;
+  transform: translateX(165%);
 }
 #navBarList #switchColor svg {
   position: absolute;

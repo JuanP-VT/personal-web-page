@@ -82,14 +82,13 @@
       height: 100%;
       width: 30px;
       left: 0;
-      right: unset;
+      transition: all 400ms ease-in-out;
       // light mode
     }
     &.active {
       background-color: rgb(205, 141, 2);
       &::after {
-        right: 0;
-        left: unset;
+        transform: translateX(165%);
       }
     }
     svg {
