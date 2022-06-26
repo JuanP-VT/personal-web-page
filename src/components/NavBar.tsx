@@ -6,6 +6,8 @@ import {
   faScrewdriverWrench,
   faStar,
   faFolder,
+  faSun,
+  faMoon,
 } from "@fortawesome/free-solid-svg-icons";
 function NavBar() {
   useEffect(() => {
@@ -49,6 +51,10 @@ function NavBar() {
         <div className="container">
           <FontAwesomeIcon icon={faFolder} />
           <a href="#AllProjects">All Projects</a>
+        </div>
+        <div id="switchColor" className="switch">
+          <FontAwesomeIcon icon={faMoon} id="moonIcon" />
+          <FontAwesomeIcon icon={faSun} id="sunIcon" />
         </div>
       </div>
     </div>

@@ -224,6 +224,45 @@
   color: rgb(132, 152, 207);
   transform: scale(1.2);
 }
+#navBarList #switchColor {
+  width: 80px;
+  height: 30px;
+  border-radius: 50px;
+  background-color: rgb(29, 37, 41);
+  position: relative;
+  transition: all 400ms ease-in-out;
+  cursor: pointer;
+}
+#navBarList #switchColor::after {
+  content: "";
+  background-color: rgb(211, 211, 211);
+  border-radius: 100%;
+  position: absolute;
+  height: 100%;
+  width: 30px;
+  left: 0;
+  right: unset;
+}
+#navBarList #switchColor.active {
+  background-color: rgb(205, 141, 2);
+}
+#navBarList #switchColor.active::after {
+  right: 0;
+  left: unset;
+}
+#navBarList #switchColor svg {
+  position: absolute;
+  height: 20px;
+  top: 15%;
+}
+#navBarList #switchColor #moonIcon {
+  right: 5px;
+  color: rgb(242, 237, 237);
+}
+#navBarList #switchColor #sunIcon {
+  left: 5px;
+  color: rgb(242, 237, 237);
+}
 
 #About .container {
   width: 100%;

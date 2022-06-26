@@ -66,4 +66,44 @@
       }
     }
   }
+  #switchColor {
+    width: 80px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: rgb(29, 37, 41);
+    position: relative;
+    transition: all 400ms ease-in-out;
+    cursor: pointer;
+    &::after {
+      content: "";
+      background-color: rgb(211, 211, 211);
+      border-radius: 100%;
+      position: absolute;
+      height: 100%;
+      width: 30px;
+      left: 0;
+      right: unset;
+      // light mode
+    }
+    &.active {
+      background-color: rgb(205, 141, 2);
+      &::after {
+        right: 0;
+        left: unset;
+      }
+    }
+    svg {
+      position: absolute;
+      height: 20px;
+      top: 15%;
+    }
+    #moonIcon {
+      right: 5px;
+      color: $mainTextColor;
+    }
+    #sunIcon {
+      left: 5px;
+      color: $mainTextColor;
+    }
+  }
 }
