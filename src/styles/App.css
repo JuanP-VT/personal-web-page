@@ -166,8 +166,12 @@
   transition: all 400ms ease-in-out;
 }
 
-.scrolled {
+.scrolled.dark {
   background-color: rgb(24, 26, 26);
+}
+
+.scrolled.light {
+  background-color: #ff4f58;
 }
 
 #navBarName {
@@ -179,10 +183,14 @@
 }
 #navBarName #nameOne {
   font-family: "Permanent Marker", cursive;
+}
+#navBarName #nameOne .dark {
   color: rgb(242, 237, 237);
 }
 #navBarName #nameTwo {
   font-family: "Permanent Marker", cursive;
+}
+#navBarName #nameTwo .dark {
   color: rgb(215, 23, 23);
 }
 

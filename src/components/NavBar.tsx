@@ -15,20 +15,62 @@ type Props = {
 };
 
 function NavBar({ setColorMode, colorMode }: Props) {
+  useEffect(() => {
+    console.log(colorMode);
+    const NavBar = document.querySelector("#NavBar") as HTMLDivElement;
+    if (colorMode === "") {
+      window.addEventListener("scroll", scrollDark);
+    }
+    if (colorMode === "light") {
+      window.addEventListener("scroll", scrollLight);
+    }
+    return () => {
+      window.removeEventListener("scroll", scrollDark);
+      window.removeEventListener("scroll", scrollLight);
+    };
+    function scrollDark() {
+      if (window.scrollY > 50) {
+        NavBar.classList.remove("static");
+        NavBar.classList.remove("light");
+        NavBar.classList.add("scrolled");
+        NavBar.classList.add("dark");
+      }
+      if (window.scrollY < 50) {
+        NavBar.classList.add("static");
+        NavBar.classList.remove("light");
+
+        NavBar.classList.remove("scrolled");
+        NavBar.classList.remove("dark");
+      }
+    }
+    function scrollLight() {
+      if (window.scrollY > 50) {
+        NavBar.classList.remove("dark");
+
+        NavBar.classList.remove("static");
+        NavBar.classList.add("scrolled");
+        NavBar.classList.add("light");
+      }
+      if (window.scrollY < 50) {
+        NavBar.classList.remove("dark");
+
+        NavBar.classList.add("static");
+        NavBar.classList.remove("scrolled");
+        NavBar.classList.remove("light");
+      }
+    }
+  }, [colorMode]);
   // Handle color switch
   function handleColorSwitch(e: MouseEvent) {
     const target = e.target as HTMLDivElement;
-    console.log(target);
     if (target.classList.contains("active")) {
       target.classList.remove("active");
       setColorMode("");
-      console.log(target);
       return;
     }
     if (target.classList.contains("active") === false) {
       target.classList.add("active");
       setColorMode("light");
-      console.log(target);
       return;
     }
   }

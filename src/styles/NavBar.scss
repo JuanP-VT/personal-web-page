@@ -10,8 +10,11 @@
   align-items: center;
   transition: all 400ms ease-in-out;
 }
-.scrolled {
+.scrolled.dark {
   background-color: $NavBarBGC;
+}
+.scrolled.light {
+  background-color: $NavBarBGCLight;
 }
 #navBarName {
   text-align: center;
@@ -21,11 +24,15 @@
   letter-spacing: 10px;
   #nameOne {
     font-family: $fontTwo;
-    color: $mainTextColor;
+    .dark {
+      color: $mainTextColor;
+    }
   }
   #nameTwo {
     font-family: $fontTwo;
-    color: $secondaryTextColor;
+    .dark {
+      color: $secondaryTextColor;
+    }
   }
 }
 
