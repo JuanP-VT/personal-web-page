@@ -53,7 +53,6 @@ function NavBar({ setColorMode, colorMode }: Props) {
       }
       if (window.scrollY < 50) {
         NavBar.classList.remove("dark");
-
         NavBar.classList.add("static");
         NavBar.classList.remove("scrolled");
         NavBar.classList.remove("light");

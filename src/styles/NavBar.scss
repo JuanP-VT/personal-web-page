@@ -24,15 +24,11 @@
   letter-spacing: 10px;
   #nameOne {
     font-family: $fontTwo;
-    .dark {
-      color: $mainTextColor;
-    }
+    color: $mainTextColor;
   }
   #nameTwo {
     font-family: $fontTwo;
-    .dark {
-      color: $secondaryTextColor;
-    }
+    color: $secondaryTextColor;
   }
 }
 
