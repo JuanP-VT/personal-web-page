@@ -80,11 +80,11 @@
   background-color: rgb(210, 34, 34);
 }
 #Home .container .btnContainer .project {
-  background-color: rgb(14, 14, 90);
+  background-color: rgb(84, 124, 175);
 }
 #Home .container .btnContainer .project:hover {
   background-color: transparent;
-  border: 3px solid rgb(14, 14, 90);
+  border: 3px solid rgb(84, 124, 175);
 }
 
 #textAnimation span {
@@ -171,7 +171,7 @@
 }
 
 .scrolled.light {
-  background-color: #ff4f58;
+  background-color: #669db3;
 }
 
 #navBarName {
@@ -200,6 +200,7 @@
   font-size: 1.2rem;
   text-decoration: none;
   color: rgb(155, 151, 151);
+  font-weight: 700;
 }
 #navBarList .container {
   display: flex;
@@ -541,12 +542,29 @@
   padding-top: 2px;
 }
 
+.lightBGC1 {
+  background-color: rgb(235, 233, 233) !important;
+}
+
+.lightBGC2 {
+  background-color: rgb(109, 155, 216) !important;
+}
+
+.lightColor1 {
+  color: rgb(4, 4, 4) !important;
+}
+
+.lightColor2 {
+  color: rgb(40, 40, 40) !important;
+}
+
 * {
   font-family: "Lato", sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  transition: all 400ms ease-in-out;
 }
 
 body {

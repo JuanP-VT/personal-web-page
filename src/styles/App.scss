@@ -4,6 +4,7 @@
 @use "Skills";
 @use "ShowCase";
 @use "AllProjects";
+@use "LightMode";
 @import "Variables";
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Permanent+Marker&display=swap");
 * {
@@ -12,6 +13,7 @@
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  transition: all 400ms ease-in-out;
 }
 body {
   height: 600vh;
