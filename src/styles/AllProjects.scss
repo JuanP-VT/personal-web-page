@@ -1,4 +1,16 @@
 @import "Variables";
+#AllProjects {
+  .txtContainer {
+    color: $mainTextColor;
+    width: 40%;
+    font-size: 1.15rem;
+    padding: 20px;
+    font-weight: 700;
+    span {
+      color: $fourthTextColor;
+    }
+  }
+}
 #projectContainer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 400px));

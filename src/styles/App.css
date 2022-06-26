@@ -384,6 +384,17 @@
   opacity: 0.85 !important;
 }
 
+#AllProjects .txtContainer {
+  color: rgb(242, 237, 237);
+  width: 40%;
+  font-size: 1.15rem;
+  padding: 20px;
+  font-weight: 700;
+}
+#AllProjects .txtContainer span {
+  color: rgb(205, 99, 99);
+}
+
 #projectContainer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 400px));

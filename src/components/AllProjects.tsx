@@ -32,6 +32,22 @@ function AllProjects() {
           <span className="alter">Projects</span>
         </p>
       </div>
+      <div className="txtContainer">
+        <p>
+          <span>Note</span>: here you can see my progress as a web developer.
+        </p>
+        <p>
+          <br /> The <span>GitHub button</span> is going to take you to the
+          project repository, there you can see a readme with a brief
+          description, the objective of the project and the commit history as
+          proof it was made by me.
+        </p>
+        <br />{" "}
+        <p>
+          Also the <span>Demo button</span> will display a deployment version of
+          the app.
+        </p>
+      </div>
       <div id="projectContainer">
         <ProjectCard
           coverImgSrc={Project14}
@@ -117,7 +133,7 @@ function AllProjects() {
         <ProjectCard
           coverImgSrc={project07}
           projectName="Restaurant Page"
-          description="A dynamic restaurant page with only javascript"
+          description="A dynamic restaurant page with vanilla javascript"
           date="March 2022"
           demoURL="https://juanp-vt.github.io/Restaurant-Page/"
           githubUrl="https://github.com/JuanP-VT/Restaurant-Page"
