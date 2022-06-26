@@ -65,7 +65,7 @@
     }
   }
   #switchColor {
-    width: 80px;
+    min-width: 80px;
     height: 30px;
     border-radius: 50px;
     background-color: rgb(29, 37, 41);
@@ -86,7 +86,7 @@
     &.active {
       background-color: rgb(205, 141, 2);
       &::after {
-        transform: translateX(165%);
+        transform: translateX(170%);
       }
     }
     svg {

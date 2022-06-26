@@ -67,7 +67,6 @@
   font-weight: 600;
   font-size: 1.03rem;
   cursor: pointer;
-  transition: all ease-in-out 400ms;
   border: none;
 }
 #Home .container .btnContainer .cv {
@@ -110,13 +109,13 @@
   background-color: rgb(34, 74, 220);
 }
 .socials .linkedin:hover .iconContainer svg {
-  color: rgb(0, 18, 79);
+  color: rgb(8, 37, 95);
 }
 .socials .email {
   background-color: rgb(200, 162, 26);
 }
 .socials .email:hover .iconContainer svg {
-  color: rgb(146, 83, 0);
+  color: rgb(208, 201, 7);
 }
 .socials .Scontainer {
   margin-right: 500px;
@@ -129,7 +128,6 @@
   border-radius: 10px;
   margin-bottom: 2px;
   overflow: hidden;
-  transition: all 400ms ease-in-out;
   cursor: pointer;
 }
 .socials .Scontainer:hover {
@@ -151,7 +149,6 @@
   top: 15%;
   position: block;
   color: rgb(221, 209, 209);
-  transition: all ease-in-out 400ms;
 }
 
 #NavBar {
@@ -224,7 +221,7 @@
   transform: scale(1.2);
 }
 #navBarList #switchColor {
-  width: 80px;
+  min-width: 80px;
   height: 30px;
   border-radius: 50px;
   background-color: rgb(29, 37, 41);
@@ -246,7 +243,7 @@
   background-color: rgb(205, 141, 2);
 }
 #navBarList #switchColor.active::after {
-  transform: translateX(165%);
+  transform: translateX(170%);
 }
 #navBarList #switchColor svg {
   position: absolute;
@@ -564,7 +561,7 @@
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  transition: all 400ms ease-in-out;
+  transition: all 300ms ease-in-out;
 }
 
 body {
