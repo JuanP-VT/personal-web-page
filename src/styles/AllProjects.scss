@@ -81,7 +81,7 @@
       height: 35px;
       width: 120px;
       padding: 10px;
-      background-color: red;
+      background-color: $btnColorOne;
       text-decoration: none;
       color: $mainTextColor;
       border-radius: 10%;
@@ -89,14 +89,15 @@
       justify-content: center;
       align-items: center;
       transition: all 400ms ease-in-out;
+      font-weight: 700;
       &:hover {
         transform: scale(1.1);
-        background-color: white;
+        background-color: $mainTextColor;
         p {
-          color: red;
+          color: $secondaryTextColor;
         }
         svg {
-          color: red;
+          color: $secondaryTextColor;
         }
       }
       .container {

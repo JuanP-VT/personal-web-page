@@ -101,8 +101,8 @@ function About() {
                 <img src={selfDriven} alt="SelfDriven Character" />
               </div>
               <div className="textContainer">
-                <span>Self-Driven</span>: I thought myself web development
-                thanks to the amazing effort of all the
+                <span>Self-Driven</span>: I taught myself web development thanks
+                to the amazing effort of all the
                 <span>dev community</span> creating superb teaching content but
                 at the end of the day it was me who kept pushing to make this
                 dream a reality,
