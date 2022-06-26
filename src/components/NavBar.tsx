@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, MouseEvent } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHome,
@@ -9,7 +9,32 @@ import {
   faSun,
   faMoon,
 } from "@fortawesome/free-solid-svg-icons";
-function NavBar() {
+type Props = {
+  setColorMode: React.Dispatch<React.SetStateAction<string>>;
+};
+function NavBar({ setColorMode }: Props) {
+  // Handle color switch
+  function handleColorSwitch(e: MouseEvent) {
+    const target = e.target as HTMLDivElement;
+
+    console.log(target);
+
+    if (target.classList.contains("active")) {
+      target.classList.remove("active");
+      setColorMode("");
+      console.log(target);
+
+      return;
+    }
+    if (target.classList.contains("active") === false) {
+      target.classList.add("active");
+      setColorMode("light");
+      console.log(target);
+
+      return;
+    }
+  }
+
   useEffect(() => {
     window.addEventListener("scroll", () => {
       const navBar = document.querySelector("#NavBar") as HTMLDivElement;
@@ -52,7 +77,7 @@ function NavBar() {
           <FontAwesomeIcon icon={faFolder} />
           <a href="#AllProjects">All Projects</a>
         </div>
-        <div id="switchColor" className="switch">
+        <div id="switchColor" className="switch" onClick={handleColorSwitch}>
           <FontAwesomeIcon icon={faMoon} id="moonIcon" />
           <FontAwesomeIcon icon={faSun} id="sunIcon" />
         </div>
