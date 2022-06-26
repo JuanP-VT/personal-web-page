@@ -11,46 +11,29 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 type Props = {
   setColorMode: React.Dispatch<React.SetStateAction<string>>;
+  colorMode: string;
 };
-function NavBar({ setColorMode }: Props) {
+
+function NavBar({ setColorMode, colorMode }: Props) {
   // Handle color switch
   function handleColorSwitch(e: MouseEvent) {
     const target = e.target as HTMLDivElement;
-
     console.log(target);
-
     if (target.classList.contains("active")) {
       target.classList.remove("active");
       setColorMode("");
       console.log(target);
-
       return;
     }
     if (target.classList.contains("active") === false) {
       target.classList.add("active");
       setColorMode("light");
       console.log(target);
-
       return;
     }
   }
-
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
-      const navBar = document.querySelector("#NavBar") as HTMLDivElement;
-      const alterName = document.querySelector("#nameOne") as HTMLSpanElement;
-      if (window.scrollY > 50) {
-        navBar.classList.add("scrolled");
-        alterName.classList.add("alter");
-      }
-      if (window.scrollY < 50) {
-        navBar.classList.remove("scrolled");
-        alterName.classList.remove("alter");
-      }
-    });
-  }, []);
   return (
-    <div id="NavBar">
+    <div id="NavBar" className="static">
       <div id="navBarName">
         <span id="nameOne">Juan</span> <span id="nameTwo">Pablo</span>
       </div>

@@ -11,7 +11,7 @@ function App() {
   const [colorMode, setColorMode] = useState("");
   return (
     <div id="App">
-      <NavBar setColorMode={setColorMode} />
+      <NavBar setColorMode={setColorMode} colorMode={colorMode} />
       <Home />
       <About />
       <Skills />

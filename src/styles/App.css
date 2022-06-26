@@ -171,13 +171,11 @@
 }
 
 #navBarName {
-  color: rgb(242, 237, 237);
   text-align: center;
   width: 40%;
   font-weight: 600;
   font-size: 2rem;
   letter-spacing: 10px;
-  font-family: "Permanent Marker", cursive;
 }
 #navBarName #nameOne {
   font-family: "Permanent Marker", cursive;
@@ -186,10 +184,6 @@
 #navBarName #nameTwo {
   font-family: "Permanent Marker", cursive;
   color: rgb(215, 23, 23);
-}
-#navBarName .alter {
-  font-family: "Permanent Marker", cursive;
-  color: rgb(177, 177, 177) !important;
 }
 
 #navBarList {
