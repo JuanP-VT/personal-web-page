@@ -66,6 +66,15 @@ function App() {
         ShowCase.classList.add("showcaseAltBGC");
         const h1 = ShowCase.querySelector("h1");
         h1?.classList.add("lightColor3");
+        // ALL PROJECTS SECTION
+        const allProjects = document.querySelector(
+          "#AllProjects"
+        ) as HTMLDivElement;
+        allProjects.classList.add("lightBGC2");
+        const pElems = allProjects.querySelectorAll("p");
+        pElems.forEach((element) => {
+          element.classList.add("lightColor1");
+        });
       });
     } // DEFAULT -- DARK MODE
     if (colorMode === "") {
