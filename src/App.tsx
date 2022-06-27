@@ -12,6 +12,14 @@ function App() {
   useEffect(() => {
     // Alternative LIGHT MODE
     if (colorMode === "light") {
+      //SECTIONS TITLE
+      const sectionsTitle = Array.from(
+        document.querySelectorAll(".sectionTitle")
+      );
+      sectionsTitle.forEach((element) => {
+        const P = element.querySelector("p") as HTMLParagraphElement;
+        P.classList.add("lightColor1");
+      });
       //NAVBAR SECTION
       const NavBar = document.querySelector("#NavBar") as HTMLDivElement;
       const firstName = NavBar.querySelector("#nameOne") as HTMLSpanElement;
@@ -44,9 +52,26 @@ function App() {
             element.classList.add("lightColor1");
           });
         });
+        // SKILLS SECTION
+        const Skill = document.querySelector("#Skills") as HTMLDivElement;
+        Skill.classList.add("lightBGC1");
+        const SkillBoxes = Array.from(Skill.querySelectorAll(".skillBox"));
+        SkillBoxes.forEach((element) => {
+          element.classList.add("SkillBoxLight");
+          const p = element.querySelector("p");
+          p?.classList.add("lightColor1");
+        });
       });
     } // DEFAULT -- DARK MODE
     if (colorMode === "") {
+      //SECTIONS TITLE
+      const sectionsTitle = Array.from(
+        document.querySelectorAll(".sectionTitle")
+      );
+      sectionsTitle.forEach((element) => {
+        const P = element.querySelector("p") as HTMLParagraphElement;
+        P.classList.remove("lightColor1");
+      });
       //Navbar elements
       const NavBar = document.querySelector("#NavBar") as HTMLDivElement;
       const firstName = NavBar.querySelector("#nameOne") as HTMLSpanElement;
@@ -78,6 +103,15 @@ function App() {
         const pElem = element.querySelectorAll("p");
         pElem.forEach((element) => {
           element.classList.remove("lightColor1");
+        });
+        // SKILLS SECTION
+        const Skill = document.querySelector("#Skills") as HTMLDivElement;
+        Skill.classList.remove("lightBGC1");
+        const SkillBoxes = Array.from(Skill.querySelectorAll(".skillBox"));
+        SkillBoxes.forEach((element) => {
+          element.classList.remove("SkillBoxLight");
+          const p = element.querySelector("p");
+          p?.classList.remove("lightColor1");
         });
       });
     }
