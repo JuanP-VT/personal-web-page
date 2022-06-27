@@ -267,7 +267,7 @@
 }
 #About .container .title {
   font-size: 2rem;
-  font-weight: 650;
+  font-weight: 800;
   font-style: italic;
   color: rgb(105, 98, 98);
   text-align: center;
@@ -277,7 +277,8 @@
 }
 #About .container div .textContainer {
   color: rgb(242, 237, 237);
-  font-size: 1.35rem;
+  font-size: 1.3rem;
+  font-weight: 600;
 }
 #About .container div .textContainer span {
   font-weight: 900;
@@ -544,11 +545,11 @@
 }
 
 .lightBGC2 {
-  background-color: rgb(109, 155, 216) !important;
+  background-color: rgb(186, 204, 242) !important;
 }
 
 .lightColor1 {
-  color: rgb(4, 4, 4) !important;
+  color: rgb(31, 30, 30) !important;
 }
 
 .lightColor2 {

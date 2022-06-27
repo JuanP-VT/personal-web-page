@@ -78,16 +78,20 @@ function About() {
             <p>
               <br />
               But the idea stood with me, I come from a
-              <span>tech background</span>, always were interested in
-              videogames, technology, computers and even had some{" "}
-              <span>coding</span>
+              <span>
+                <em>techie</em> background
+              </span>
+              , always were interested in videogames, technology, computers and
+              even had some <span>coding</span>
               experience with C (school education) and Lua (I used code in
               Minecraft's computercraft mod and I loved it), after a few months
               of research,talks and analysis it was clear, that idea became a
               light ray that ignited my ambition for my professional life.
             </p>
             <br />
-            It was settle <span>I would become a Developer.</span>
+            <p>
+              It was settle <span>I would become a Developer.</span>
+            </p>
           </div>
         </div>
       </div>

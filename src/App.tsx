@@ -10,8 +10,9 @@ import AllProjects from "./components/AllProjects";
 function App() {
   const [colorMode, setColorMode] = useState("");
   useEffect(() => {
+    // Alternative LIGHT MODE
     if (colorMode === "light") {
-      //Navbar elements
+      //NAVBAR SECTION
       const NavBar = document.querySelector("#NavBar") as HTMLDivElement;
       const firstName = NavBar.querySelector("#nameOne") as HTMLSpanElement;
       firstName.classList.add("lightColor1");
@@ -20,7 +21,7 @@ function App() {
       aLinks.forEach((element) => {
         element.classList.add("lightColor1");
       });
-      // Home elements
+      // HOME SECTION
       const Home = document.querySelector("#Home") as HTMLDivElement;
       Home.classList.add("lightBGC1");
       const info = Home.querySelector(".info") as HTMLDivElement;
@@ -29,8 +30,22 @@ function App() {
       const HomeaLinks = Array.from(Home.querySelectorAll("a"));
       HomeaLinks.forEach((element) => {
         element.classList.add("lightColor1");
+        //ABOUT section
+        const About = document.querySelector("#About") as HTMLDivElement;
+        About.classList.add("lightBGC2");
+        // Select all P elements inside the about section
+        const textContainers = Array.from(
+          About.querySelectorAll(".textContainer")
+        );
+        textContainers.forEach((element) => {
+          element.classList.add("lightColor1");
+          const pElem = element.querySelectorAll("p");
+          pElem.forEach((element) => {
+            element.classList.add("lightColor1");
+          });
+        });
       });
-    }
+    } // DEFAULT -- DARK MODE
     if (colorMode === "") {
       //Navbar elements
       const NavBar = document.querySelector("#NavBar") as HTMLDivElement;
@@ -50,6 +65,20 @@ function App() {
       const HomeaLinks = Array.from(Home.querySelectorAll("a"));
       HomeaLinks.forEach((element) => {
         element.classList.remove("lightColor1");
+      });
+      //ABOUT section
+      const About = document.querySelector("#About") as HTMLDivElement;
+      About.classList.remove("lightBGC2");
+      // Select all P elements inside the about section
+      const textContainers = Array.from(
+        About.querySelectorAll(".textContainer")
+      );
+      textContainers.forEach((element) => {
+        element.classList.remove("lightColor1");
+        const pElem = element.querySelectorAll("p");
+        pElem.forEach((element) => {
+          element.classList.remove("lightColor1");
+        });
       });
     }
   }, [colorMode]);
