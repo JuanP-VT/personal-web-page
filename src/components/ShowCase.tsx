@@ -59,7 +59,7 @@ function ShowCase() {
   }, [currentIndex, maxIndex]);
 
   return (
-    <section id="ShowCase">
+    <section id="ShowCase" className="showcase">
       <div className="sectionTitle">
         <p>
           Show

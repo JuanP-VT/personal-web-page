@@ -61,6 +61,11 @@ function App() {
           const p = element.querySelector("p");
           p?.classList.add("lightColor1");
         });
+        //SHOWCASE SECTION
+        const ShowCase = document.querySelector("#ShowCase") as HTMLDivElement;
+        ShowCase.classList.add("showcaseAltBGC");
+        const h1 = ShowCase.querySelector("h1");
+        h1?.classList.add("lightColor3");
       });
     } // DEFAULT -- DARK MODE
     if (colorMode === "") {
@@ -113,6 +118,11 @@ function App() {
           const p = element.querySelector("p");
           p?.classList.remove("lightColor1");
         });
+        //SHOWCASE SECTION
+        const ShowCase = document.querySelector("#ShowCase") as HTMLDivElement;
+        ShowCase.classList.remove("showcaseAltBGC");
+        const h1 = ShowCase.querySelector("h1");
+        h1?.classList.remove("lightColor3");
       });
     }
   }, [colorMode]);

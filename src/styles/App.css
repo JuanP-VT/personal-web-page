@@ -556,8 +556,20 @@
   color: rgb(40, 40, 40) !important;
 }
 
+.lightColor3 {
+  color: rgb(1, 5, 18) !important;
+}
+
 .SkillBoxLight {
   background-color: rgb(79, 98, 165) !important;
+}
+
+.showcaseAltBGC {
+  background: url(../img/ramen-and-rain.gif) no-repeat center center fixed !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
 }
 
 * {
@@ -613,7 +625,9 @@ body {
 
 #ShowCase {
   height: 100vh;
-  background-color: black;
+}
+
+.showcase {
   background: url(../img/chill.gif) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
