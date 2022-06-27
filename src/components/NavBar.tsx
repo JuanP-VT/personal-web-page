@@ -15,9 +15,8 @@ type Props = {
 };
 
 function NavBar({ setColorMode, colorMode }: Props) {
+  //Manage navbar scroll behavior
   useEffect(() => {
-    console.log(colorMode);
-    const NavBar = document.querySelector("#NavBar") as HTMLDivElement;
     if (colorMode === "") {
       window.addEventListener("scroll", scrollDark);
     }
@@ -28,36 +27,6 @@ function NavBar({ setColorMode, colorMode }: Props) {
       window.removeEventListener("scroll", scrollDark);
       window.removeEventListener("scroll", scrollLight);
     };
-    function scrollDark() {
-      if (window.scrollY > 50) {
-        NavBar.classList.remove("static");
-        NavBar.classList.remove("light");
-        NavBar.classList.add("scrolled");
-        NavBar.classList.add("dark");
-      }
-      if (window.scrollY < 50) {
-        NavBar.classList.add("static");
-        NavBar.classList.remove("light");
-
-        NavBar.classList.remove("scrolled");
-        NavBar.classList.remove("dark");
-      }
-    }
-    function scrollLight() {
-      if (window.scrollY > 50) {
-        NavBar.classList.remove("dark");
-
-        NavBar.classList.remove("static");
-        NavBar.classList.add("scrolled");
-        NavBar.classList.add("light");
-      }
-      if (window.scrollY < 50) {
-        NavBar.classList.remove("dark");
-        NavBar.classList.add("static");
-        NavBar.classList.remove("scrolled");
-        NavBar.classList.remove("light");
-      }
-    }
   }, [colorMode]);
   // Handle color switch
   function handleColorSwitch(e: MouseEvent) {
@@ -65,12 +34,48 @@ function NavBar({ setColorMode, colorMode }: Props) {
     if (target.classList.contains("active")) {
       target.classList.remove("active");
       setColorMode("");
+      scrollDark();
       return;
     }
     if (target.classList.contains("active") === false) {
       target.classList.add("active");
       setColorMode("light");
+      scrollLight();
       return;
+    }
+  }
+  function scrollDark() {
+    const NavBar = document.querySelector("#NavBar") as HTMLDivElement;
+
+    if (window.scrollY > 50) {
+      NavBar.classList.remove("static");
+      NavBar.classList.remove("light");
+      NavBar.classList.add("scrolled");
+      NavBar.classList.add("dark");
+    }
+    if (window.scrollY < 50) {
+      NavBar.classList.add("static");
+      NavBar.classList.remove("light");
+
+      NavBar.classList.remove("scrolled");
+      NavBar.classList.remove("dark");
+    }
+  }
+  function scrollLight() {
+    const NavBar = document.querySelector("#NavBar") as HTMLDivElement;
+
+    if (window.scrollY > 50) {
+      NavBar.classList.remove("dark");
+
+      NavBar.classList.remove("static");
+      NavBar.classList.add("scrolled");
+      NavBar.classList.add("light");
+    }
+    if (window.scrollY < 50) {
+      NavBar.classList.remove("dark");
+      NavBar.classList.add("static");
+      NavBar.classList.remove("scrolled");
+      NavBar.classList.remove("light");
     }
   }
   return (
