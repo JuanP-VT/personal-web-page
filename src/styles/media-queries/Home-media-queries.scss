@@ -1,0 +1,27 @@
+@media (max-width: 1320px) {
+  //Navbar Ham Menu
+
+  #Home {
+    #textAnimation {
+      span {
+        font-size: 40px;
+      }
+    }
+    .container {
+      .info {
+        font-size: 27px;
+      }
+      .btnContainer {
+        a {
+          font-size: 13px;
+        }
+      }
+    }
+    .socials {
+      .Scontainer {
+        width: 200px;
+        transform: translateX(-120px);
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+@media (max-width: 1320px) {
+  //Navbar Ham Menu
+  #NavBar {
+    #hamBtn {
+      display: flex;
+      color: gold;
+      height: 30px;
+    }
+    #navBarList {
+      overflow-x: hidden;
+      position: absolute;
+      right: 0;
+      flex-direction: column;
+      width: 20vw;
+      padding: 10px;
+      border-radius: 10px;
+      transform: translateX(100vw);
+      border-bottom: 1px solid gold;
+      border-right: 1px solid gold;
+      border-left: 1px solid gold;
+
+      &.active {
+        transform: translateY(140px);
+      }
+    }
+  }
+}
