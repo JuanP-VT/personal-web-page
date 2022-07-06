@@ -1,9 +1,10 @@
 @import "Variables";
 #NavBar {
+  top: 0;
   z-index: 10;
   display: flex;
   position: fixed;
-  width: 100%;
+  width: 100vw;
   height: 60px;
   display: flex;
   padding: 10px;

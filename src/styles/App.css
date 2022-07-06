@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Permanent+Marker&display=swap");
 #Home {
+  width: 100%;
   background-color: rgb(10, 10, 10);
   height: 100vh;
   display: flex;
@@ -14,7 +15,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 65%;
 }
 #Home .container .info {
   width: 50%;
@@ -95,6 +96,7 @@
 }
 
 .socials {
+  width: 150px;
   position: absolute;
   justify-items: center;
   align-items: center;
@@ -152,10 +154,11 @@
 }
 
 #NavBar {
+  top: 0;
   z-index: 10;
   display: flex;
   position: fixed;
-  width: 100%;
+  width: 100vw;
   height: 60px;
   display: flex;
   padding: 10px;
@@ -266,6 +269,9 @@
   color: rgb(242, 237, 237);
 }
 
+#About {
+  display: none;
+}
 #About .container {
   width: 100%;
   height: 100%;
@@ -375,7 +381,7 @@
 }
 
 #carousel {
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -426,6 +432,9 @@
   opacity: 0.85 !important;
 }
 
+#AllProjects {
+  display: none;
+}
 #AllProjects .txtContainer {
   color: rgb(242, 237, 237);
   width: 40%;
@@ -594,12 +603,93 @@
     padding: 10px;
     border-radius: 10px;
     transform: translateX(100vw);
-    border-bottom: 1px solid gold;
-    border-right: 1px solid gold;
-    border-left: 1px solid gold;
+    border-bottom: 0.5px solid gold;
+    border-right: 0.5px solid gold;
+    border-left: 0.5px solid gold;
+    z-index: 10;
   }
   #NavBar #navBarList.active {
     transform: translateY(140px);
+  }
+}
+@media (max-width: 1080px) {
+  #NavBar #navBarName {
+    width: 90%;
+    font-size: 26px;
+  }
+  #NavBar #navBarList.active {
+    transform: translateY(140px);
+  }
+  #NavBar #navBarList.active .container a {
+    font-size: 16px;
+  }
+  #NavBar #navBarList.active .container svg {
+    transform: scale(0.95);
+  }
+}
+@media (max-width: 850px) {
+  #NavBar #navBarName {
+    font-size: 21px;
+  }
+  #NavBar #navBarList.active {
+    transform: translateY(140px);
+  }
+  #NavBar #navBarList.active .container a {
+    font-size: 12px;
+  }
+  #NavBar #navBarList.active .container svg {
+    transform: scale(0.9);
+  }
+}
+@media (max-width: 670px) {
+  #NavBar #navBarName {
+    font-size: 21px;
+  }
+  #NavBar #navBarList.active {
+    transform: translateY(140px);
+  }
+  #NavBar #navBarList.active .container a {
+    font-size: 12px;
+  }
+  #NavBar #navBarList.active .container svg {
+    transform: scale(0.9);
+  }
+  #switchColor {
+    transform: scale(0.88);
+  }
+  #switchColor svg {
+    transform: scale(0.88);
+  }
+  #switchColor svg::after {
+    transform: scale(0.88);
+  }
+}
+@media (max-width: 480px) {
+  #NavBar #navBarName {
+    font-size: 18px;
+  }
+  #NavBar #navBarList {
+    width: 30vw;
+  }
+  #NavBar #navBarList.active {
+    transform: translateY(140px);
+  }
+  #NavBar #navBarList.active .container a {
+    font-size: 11px;
+    margin-top: 2.5px;
+  }
+  #NavBar #navBarList.active .container svg {
+    transform: scale(0.7);
+    padding-bottom: -5px;
+  }
+  #switchColor {
+    transform: scale(0.66);
+  }
+  #switchColor svg {
+    transform: scale(0.66);
+  }
+  #switchColor svg::after {
+    transform: scale(0.6);
   }
 }
 @media (max-width: 1320px) {
@@ -611,10 +701,6 @@
   }
   #Home .container .btnContainer a {
     font-size: 13px;
-  }
-  #Home .socials .Scontainer {
-    width: 200px;
-    transform: translateX(-120px);
   }
 }
 @media (max-width: 1080px) {
@@ -628,10 +714,6 @@
     font-size: 12px;
     transform: scale(0.9);
   }
-  #Home .socials .Scontainer {
-    width: 200px;
-    transform: translateX(-120px);
-  }
 }
 @media (max-width: 850px) {
   #Home #textAnimation span {
@@ -639,55 +721,69 @@
   }
   #Home .container .info {
     font-size: 21px;
+    margin-left: 10px;
   }
   #Home .container .btnContainer a {
-    font-size: 11px;
+    font-size: 13px;
     transform: scale(0.85);
-  }
-  #Home .socials .Scontainer {
-    width: 200px;
-    transform: translateX(-120px);
   }
 }
 @media (max-width: 670px) {
+  #Home #textAnimation {
+    margin-left: -5px;
+  }
   #Home #textAnimation span {
-    font-size: 24px;
+    font-size: 23 px;
   }
   #Home .container .info {
     font-size: 18px;
   }
   #Home .container .btnContainer a {
-    font-size: 10px;
     transform: scale(0.8);
     text-align: center;
   }
-  #Home .socials .Scontainer {
-    width: 200px;
-    transform: translateX(-120px) scale(0.9);
+  .socials {
+    bottom: 0;
+  }
+  .socials .Scontainer {
+    height: 40px;
+    width: 150px;
+    transform: translateX(-100px);
+  }
+  .socials .Scontainer .text {
+    font-size: 12px;
+  }
+  .socials .Scontainer svg {
+    height: 30px;
+    width: 30px;
   }
 }
 @media (max-width: 480px) {
   #Home #textAnimation {
-    margin-left: -20px;
+    margin-left: 70px;
+    text-align: center;
+    width: 30vw;
+    height: 10vh;
   }
   #Home #textAnimation span {
-    font-size: 17px;
+    font-size: 20px;
+  }
+  #Home .container {
+    margin-left: 15%;
+    width: 70%;
   }
   #Home .container .info {
-    font-size: 14px;
+    width: 100%;
   }
-  #Home .container .btnContainer a {
-    font-size: 12px;
-    transform: scale(0.7);
-    text-align: center;
+  #Home .container .info::after {
+    display: none;
   }
-  #Home .container .btnContainer .cv {
-    margin-right: -15px;
+  #Home .container .info::before {
+    display: none;
   }
-  #Home .socials .Scontainer {
-    width: 200px;
-    transform: translateX(-120px) scale(0.5);
-    margin-bottom: -25px;
+  #Home .container .cv {
+    margin-left: 90px;
+    margin-right: -20px;
   }
 }
 * {

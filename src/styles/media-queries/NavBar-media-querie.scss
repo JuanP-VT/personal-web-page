@@ -14,12 +14,119 @@
       padding: 10px;
       border-radius: 10px;
       transform: translateX(100vw);
-      border-bottom: 1px solid gold;
-      border-right: 1px solid gold;
-      border-left: 1px solid gold;
+      border-bottom: 0.5px solid gold;
+      border-right: 0.5px solid gold;
+      border-left: 0.5px solid gold;
+      z-index: 10;
 
       &.active {
         transform: translateY(140px);
+      }
+    }
+  }
+}
+
+@media (max-width: 1080px) {
+  #NavBar {
+    #navBarName {
+      width: 90%;
+      font-size: 26px;
+    }
+    #navBarList {
+      &.active {
+        transform: translateY(140px);
+        .container {
+          a {
+            font-size: 16px;
+          }
+          svg {
+            transform: scale(0.95);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  #NavBar {
+    #navBarName {
+      font-size: 21px;
+    }
+    #navBarList {
+      &.active {
+        transform: translateY(140px);
+        .container {
+          a {
+            font-size: 12px;
+          }
+          svg {
+            transform: scale(0.9);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 670px) {
+  #NavBar {
+    #navBarName {
+      font-size: 21px;
+    }
+    #navBarList {
+      &.active {
+        transform: translateY(140px);
+        .container {
+          a {
+            font-size: 12px;
+          }
+          svg {
+            transform: scale(0.9);
+          }
+        }
+      }
+    }
+  }
+  #switchColor {
+    transform: scale(0.88);
+    svg {
+      transform: scale(0.88);
+      &::after {
+        transform: scale(0.88);
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  #NavBar {
+    #navBarName {
+      font-size: 18px;
+    }
+    #navBarList {
+      width: 30vw;
+      &.active {
+        transform: translateY(140px);
+        .container {
+          a {
+            font-size: 11px;
+            margin-top: 2.5px;
+          }
+          svg {
+            transform: scale(0.7);
+            padding-bottom: -5px;
+          }
+        }
+      }
+    }
+  }
+  #switchColor {
+    transform: scale(0.66);
+    svg {
+      transform: scale(0.66);
+      &::after {
+        transform: scale(0.6);
       }
     }
   }

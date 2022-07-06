@@ -1,6 +1,7 @@
 @import "Variables";
 
 #Home {
+  width: 100%;
   background-color: $bgcOne;
   height: 100vh;
   display: flex;
@@ -14,7 +15,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 65%;
     .info {
       width: 50%;
       display: inline-flex;
@@ -98,6 +99,7 @@
 }
 //Social networks links
 .socials {
+  width: 150px;
   position: absolute;
   justify-items: center;
   align-items: center;

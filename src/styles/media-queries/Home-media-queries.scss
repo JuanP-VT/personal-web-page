@@ -15,12 +15,6 @@
         }
       }
     }
-    .socials {
-      .Scontainer {
-        width: 200px;
-        transform: translateX(-120px);
-      }
-    }
   }
 }
 
@@ -42,12 +36,6 @@
         }
       }
     }
-    .socials {
-      .Scontainer {
-        width: 200px;
-        transform: translateX(-120px);
-      }
-    }
   }
 }
 @media (max-width: 850px) {
@@ -60,18 +48,13 @@
     .container {
       .info {
         font-size: 21px;
+        margin-left: 10px;
       }
       .btnContainer {
         a {
-          font-size: 11px;
+          font-size: 13px;
           transform: scale(0.85);
         }
-      }
-    }
-    .socials {
-      .Scontainer {
-        width: 200px;
-        transform: translateX(-120px);
       }
     }
   }
@@ -80,8 +63,9 @@
 @media (max-width: 670px) {
   #Home {
     #textAnimation {
+      margin-left: -5px;
       span {
-        font-size: 24px;
+        font-size: 23 px;
       }
     }
     .container {
@@ -90,16 +74,24 @@
       }
       .btnContainer {
         a {
-          font-size: 10px;
           transform: scale(0.8);
           text-align: center;
         }
       }
     }
-    .socials {
-      .Scontainer {
-        width: 200px;
-        transform: translateX(-120px) scale(0.9);
+  }
+  .socials {
+    bottom: 0;
+    .Scontainer {
+      height: 40px;
+      width: 150px;
+      transform: translateX(-100px);
+      .text {
+        font-size: 12px;
+      }
+      svg {
+        height: 30px;
+        width: 30px;
       }
     }
   }
@@ -108,31 +100,29 @@
 @media (max-width: 480px) {
   #Home {
     #textAnimation {
-      margin-left: -20px;
+      margin-left: 70px;
+      text-align: center;
+      width: 30vw;
+      height: 10vh;
       span {
-        font-size: 17px;
+        font-size: 20px;
       }
     }
     .container {
+      margin-left: 15%;
+      width: 70%;
       .info {
-        font-size: 14px;
-      }
-      .btnContainer {
-        a {
-          font-size: 12px;
-          transform: scale(0.7);
-          text-align: center;
+        width: 100%;
+        &::after {
+          display: none;
         }
-        .cv {
-          margin-right: -15px;
+        &::before {
+          display: none;
         }
       }
-    }
-    .socials {
-      .Scontainer {
-        width: 200px;
-        transform: translateX(-120px) scale(0.5);
-        margin-bottom: -25px;
+      .cv {
+        margin-left: 90px;
+        margin-right: -20px;
       }
     }
   }
