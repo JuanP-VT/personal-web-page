@@ -1,0 +1,45 @@
+@import "Variables";
+
+@media (max-width: 1320px) {
+  //Navbar Ham Menu
+  #NavBar {
+    #hamBtn {
+      display: flex;
+      color: white;
+      height: 30px;
+    }
+    #navBarList {
+      overflow-x: hidden;
+      position: absolute;
+      transform: translateY(141px);
+      right: 0;
+      flex-direction: column;
+      width: 20vw;
+      padding: 10px;
+      border-radius: 10px;
+      transform: translateX(100vw);
+      &.active {
+        transform: translateX(0);
+        transform: translateY(141px);
+      }
+    }
+  }
+  #textAnimation {
+    span {
+      font-size: 45px;
+    }
+  }
+  #Home {
+    .container {
+      .info {
+        font-size: 30px;
+      }
+    }
+    .socials {
+      .Scontainer {
+        width: 200px;
+        transform: translateX(-120px);
+      }
+    }
+  }
+}

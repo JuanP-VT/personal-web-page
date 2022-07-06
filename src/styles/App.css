@@ -159,8 +159,15 @@
   height: 60px;
   display: flex;
   padding: 10px;
+  padding-left: 30px;
   align-items: center;
+  justify-content: space-evenly;
   transition: all 400ms ease-in-out;
+}
+
+#hamBtn {
+  color: rgb(87, 87, 87);
+  display: none;
 }
 
 .scrolled.dark {
@@ -173,10 +180,10 @@
 
 #navBarName {
   text-align: center;
-  width: 40%;
   font-weight: 600;
   font-size: 2rem;
   letter-spacing: 10px;
+  width: 30%;
 }
 #navBarName #nameOne {
   font-family: "Permanent Marker", cursive;
@@ -189,9 +196,9 @@
 
 #navBarList {
   display: flex;
-  width: 60%;
   gap: 5%;
   align-items: center;
+  width: 70%;
 }
 #navBarList a {
   font-size: 1.2rem;
@@ -572,6 +579,38 @@
   background-size: cover !important;
 }
 
+@media (max-width: 1320px) {
+  #NavBar #hamBtn {
+    display: flex;
+    color: white;
+    height: 30px;
+  }
+  #NavBar #navBarList {
+    overflow-x: hidden;
+    position: absolute;
+    transform: translateY(141px);
+    right: 0;
+    flex-direction: column;
+    width: 20vw;
+    padding: 10px;
+    border-radius: 10px;
+    transform: translateX(100vw);
+  }
+  #NavBar #navBarList.active {
+    transform: translateX(0);
+    transform: translateY(141px);
+  }
+  #textAnimation span {
+    font-size: 45px;
+  }
+  #Home .container .info {
+    font-size: 30px;
+  }
+  #Home .socials .Scontainer {
+    width: 200px;
+    transform: translateX(-120px);
+  }
+}
 * {
   font-family: "Lato", sans-serif;
   padding: 0;

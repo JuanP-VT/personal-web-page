@@ -94,6 +94,10 @@ function NavBar({ setColorMode, colorMode }: Props) {
       NavBarList.classList.remove("light");
     }
   }
+  function handleHamBtn() {
+    const navBarList = document.querySelector("#navBarList") as HTMLDivElement;
+    navBarList.classList.toggle("active");
+  }
   return (
     <div id="NavBar" className="static">
       <div id="navBarName">
@@ -131,7 +135,7 @@ function NavBar({ setColorMode, colorMode }: Props) {
           <FontAwesomeIcon icon={faSun} id="sunIcon" />
         </div>
       </div>
-      <FontAwesomeIcon icon={faBars} id="hamBtn" />
+      <FontAwesomeIcon icon={faBars} id="hamBtn" onClick={handleHamBtn} />
     </div>
   );
 }

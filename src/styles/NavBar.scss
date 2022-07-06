@@ -7,8 +7,14 @@
   height: 60px;
   display: flex;
   padding: 10px;
+  padding-left: 30px;
   align-items: center;
+  justify-content: space-evenly;
   transition: all 400ms ease-in-out;
+}
+#hamBtn {
+  color: rgb(87, 87, 87);
+  display: none;
 }
 .scrolled.dark {
   background-color: $NavBarBGC;
@@ -18,10 +24,10 @@
 }
 #navBarName {
   text-align: center;
-  width: 40%;
   font-weight: 600;
   font-size: 2rem;
   letter-spacing: 10px;
+  width: 30%;
   #nameOne {
     font-family: $fontTwo;
     color: $mainTextColor;
@@ -34,9 +40,9 @@
 
 #navBarList {
   display: flex;
-  width: 60%;
   gap: 5%;
   align-items: center;
+  width: 70%;
   a {
     font-size: 1.2rem;
     text-decoration: none;
