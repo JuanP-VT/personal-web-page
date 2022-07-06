@@ -1,6 +1,4 @@
 @media (max-width: 1320px) {
-  //Navbar Ham Menu
-
   #Home {
     #textAnimation {
       span {
@@ -21,6 +19,120 @@
       .Scontainer {
         width: 200px;
         transform: translateX(-120px);
+      }
+    }
+  }
+}
+
+@media (max-width: 1080px) {
+  #Home {
+    #textAnimation {
+      span {
+        font-size: 31px;
+      }
+    }
+    .container {
+      .info {
+        font-size: 23px;
+      }
+      .btnContainer {
+        a {
+          font-size: 12px;
+          transform: scale(0.9);
+        }
+      }
+    }
+    .socials {
+      .Scontainer {
+        width: 200px;
+        transform: translateX(-120px);
+      }
+    }
+  }
+}
+@media (max-width: 850px) {
+  #Home {
+    #textAnimation {
+      span {
+        font-size: 27px;
+      }
+    }
+    .container {
+      .info {
+        font-size: 21px;
+      }
+      .btnContainer {
+        a {
+          font-size: 11px;
+          transform: scale(0.85);
+        }
+      }
+    }
+    .socials {
+      .Scontainer {
+        width: 200px;
+        transform: translateX(-120px);
+      }
+    }
+  }
+}
+
+@media (max-width: 670px) {
+  #Home {
+    #textAnimation {
+      span {
+        font-size: 24px;
+      }
+    }
+    .container {
+      .info {
+        font-size: 18px;
+      }
+      .btnContainer {
+        a {
+          font-size: 10px;
+          transform: scale(0.8);
+          text-align: center;
+        }
+      }
+    }
+    .socials {
+      .Scontainer {
+        width: 200px;
+        transform: translateX(-120px) scale(0.9);
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  #Home {
+    #textAnimation {
+      margin-left: -20px;
+      span {
+        font-size: 17px;
+      }
+    }
+    .container {
+      .info {
+        font-size: 14px;
+      }
+      .btnContainer {
+        a {
+          font-size: 12px;
+          transform: scale(0.7);
+          text-align: center;
+        }
+        .cv {
+          margin-right: -15px;
+        }
+      }
+    }
+    .socials {
+      .Scontainer {
+        width: 200px;
+        transform: translateX(-120px) scale(0.5);
+        margin-bottom: -25px;
       }
     }
   }
