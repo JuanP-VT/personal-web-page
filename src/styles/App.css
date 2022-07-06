@@ -588,23 +588,27 @@
   #NavBar #navBarList {
     overflow-x: hidden;
     position: absolute;
-    transform: translateY(141px);
     right: 0;
     flex-direction: column;
     width: 20vw;
     padding: 10px;
     border-radius: 10px;
     transform: translateX(100vw);
+    border-bottom: 1px solid gold;
+    border-right: 1px solid gold;
+    border-left: 1px solid gold;
   }
   #NavBar #navBarList.active {
-    transform: translateX(0);
-    transform: translateY(141px);
+    transform: translateY(140px);
   }
   #textAnimation span {
-    font-size: 45px;
+    font-size: 40px;
   }
   #Home .container .info {
-    font-size: 30px;
+    font-size: 27px;
+  }
+  #Home .container .btnContainer a {
+    font-size: 13px;
   }
   #Home .socials .Scontainer {
     width: 200px;
