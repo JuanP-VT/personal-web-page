@@ -1,0 +1,28 @@
+@media (max-width: 1320px) {
+  #Skills {
+    .container {
+      gap: 200px;
+    }
+  }
+}
+
+@media (max-width: 1080px) {
+  #Skills {
+    .container {
+      gap: 80px;
+    }
+  }
+}
+
+@media (max-width: 670px) {
+  #Skills {
+    .container {
+      gap: 50px;
+      .skillBox {
+        width: 270px;
+        height: 350px;
+        margin-left: 15px;
+      }
+    }
+  }
+}
