@@ -269,16 +269,14 @@
   color: rgb(242, 237, 237);
 }
 
-#About {
-  display: none;
-}
 #About .container {
   width: 100%;
-  height: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(650px, 1fr));
 }
 #About .container .title {
+  width: 100%;
+  padding: 20px;
   font-size: 2rem;
   font-weight: 800;
   font-style: italic;
@@ -286,9 +284,11 @@
   text-align: center;
 }
 #About .container div {
-  padding: 20px;
+  width: 100%;
 }
 #About .container div .textContainer {
+  width: 100%;
+  padding: 20px;
   color: rgb(242, 237, 237);
   font-size: 1.3rem;
   font-weight: 600;
@@ -300,6 +300,7 @@
   padding-right: 2px;
 }
 #About .container div .imgContainer {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -308,7 +309,6 @@
   width: 300px;
   height: 250px;
   border-radius: 20%;
-  margin-left: 5%;
 }
 
 #AllTraits {
