@@ -1,0 +1,104 @@
+@media (max-width: 1080px) {
+  #About {
+    .container {
+      .title {
+        font-size: 25px;
+      }
+      div {
+        width: 95vw;
+        .textContainer {
+          font-size: 18px;
+        }
+        .imgContainer {
+          img {
+            width: 250px;
+            height: 200px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 850px) {
+  #About {
+    .container {
+      .title {
+        font-size: 23px;
+      }
+      div {
+        .textContainer {
+          font-size: 16px;
+        }
+        .imgContainer {
+          img {
+            width: 250px;
+            height: 190px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 670px) {
+  #About {
+    .container {
+      .title {
+        font-size: 21px;
+      }
+      div {
+        .textContainer {
+          font-size: 16px;
+        }
+        .imgContainer {
+          padding: 0;
+          margin: 0;
+          img {
+            width: 220px;
+            height: 160px;
+          }
+        }
+      }
+    }
+    .traitContainer {
+      padding: 0;
+    }
+    #AllTraits {
+      padding: 0px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  #About {
+    .container {
+      .title {
+        width: 100%;
+        font-size: 21px;
+      }
+      div {
+        .textContainer {
+          font-size: 16px;
+          width: 100%;
+          padding: 10px;
+          margin-left: 10px;
+        }
+        .imgContainer {
+          img {
+            width: 180px;
+            height: 150px;
+          }
+        }
+      }
+    }
+    .traitContainer {
+      padding: 0;
+      margin: 0;
+      flex-direction: column;
+    }
+    #AllTraits {
+      padding: 0px;
+      width: 100%;
+    }
+  }
+}

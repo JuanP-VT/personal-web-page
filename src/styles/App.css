@@ -786,6 +786,80 @@
     margin-right: -20px;
   }
 }
+@media (max-width: 1080px) {
+  #About .container .title {
+    font-size: 25px;
+  }
+  #About .container div {
+    width: 95vw;
+  }
+  #About .container div .textContainer {
+    font-size: 18px;
+  }
+  #About .container div .imgContainer img {
+    width: 250px;
+    height: 200px;
+  }
+}
+@media (max-width: 850px) {
+  #About .container .title {
+    font-size: 23px;
+  }
+  #About .container div .textContainer {
+    font-size: 16px;
+  }
+  #About .container div .imgContainer img {
+    width: 250px;
+    height: 190px;
+  }
+}
+@media (max-width: 670px) {
+  #About .container .title {
+    font-size: 21px;
+  }
+  #About .container div .textContainer {
+    font-size: 16px;
+  }
+  #About .container div .imgContainer {
+    padding: 0;
+    margin: 0;
+  }
+  #About .container div .imgContainer img {
+    width: 220px;
+    height: 160px;
+  }
+  #About .traitContainer {
+    padding: 0;
+  }
+  #About #AllTraits {
+    padding: 0px;
+  }
+}
+@media (max-width: 480px) {
+  #About .container .title {
+    width: 100%;
+    font-size: 21px;
+  }
+  #About .container div .textContainer {
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+    margin-left: 10px;
+  }
+  #About .container div .imgContainer img {
+    width: 180px;
+    height: 150px;
+  }
+  #About .traitContainer {
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+  }
+  #About #AllTraits {
+    padding: 0px;
+    width: 100%;
+  }
+}
 * {
   font-family: "Lato", sans-serif;
   padding: 0;
