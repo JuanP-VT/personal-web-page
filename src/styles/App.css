@@ -381,7 +381,7 @@
 }
 
 #carousel {
-  display: none;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -399,8 +399,8 @@
 }
 #carousel #videoSliderContainer {
   display: flex;
-  height: 600px;
-  width: 950px;
+  height: 60vh;
+  width: 50vw;
   position: relative;
 }
 #carousel #videoSliderContainer img {
@@ -880,6 +880,54 @@
     margin-left: 15px;
   }
 }
+@media (max-width: 1320px) {
+  #carousel #videoSliderContainer img {
+    opacity: 1;
+  }
+}
+@media (max-width: 1080px) {
+  #carousel #videoSliderContainer {
+    height: 70vh;
+    width: 75vw;
+  }
+  #carousel #videoSliderContainer img {
+    opacity: 1;
+  }
+}
+@media (max-width: 850px) {
+  #carousel #videoSliderContainer {
+    height: 60vh;
+    width: 80vw;
+  }
+  #carousel #videoSliderContainer img {
+    opacity: 1;
+  }
+}
+@media (max-width: 670px) {
+  #carousel #projectName {
+    font-size: 30px;
+  }
+  #carousel #videoSliderContainer {
+    height: 45vh;
+    width: 85vw;
+  }
+  #carousel #videoSliderContainer img {
+    opacity: 1;
+  }
+}
+@media (max-width: 480px) {
+  #carousel #projectName {
+    font-size: 25px;
+    text-align: center;
+  }
+  #carousel #videoSliderContainer {
+    height: 30vh;
+    width: 85vw;
+  }
+  #carousel #videoSliderContainer img {
+    opacity: 1;
+  }
+}
 * {
   font-family: "Lato", sans-serif;
   padding: 0;
@@ -929,10 +977,6 @@ body {
 #Skills {
   height: 100%;
   background-color: rgb(10, 10, 10);
-}
-
-#ShowCase {
-  height: 100vh;
 }
 
 .showcase {

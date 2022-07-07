@@ -1,7 +1,6 @@
 @import "Variables";
 #carousel {
-  // display: flex;
-  display: none;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -19,8 +18,8 @@
   }
   #videoSliderContainer {
     display: flex;
-    height: 600px;
-    width: 950px;
+    height: 60vh;
+    width: 50vw;
     position: relative;
     img {
       position: absolute;
