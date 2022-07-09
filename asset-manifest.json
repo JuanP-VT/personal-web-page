@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-web-page/static/css/main.ce9e8f83.css",
-    "main.js": "/personal-web-page/static/js/main.6cf121b0.js",
+    "main.css": "/personal-web-page/static/css/main.3fd8ad82.css",
+    "main.js": "/personal-web-page/static/js/main.7915cb4a.js",
     "static/media/shopping-app.mp4": "/personal-web-page/static/media/shopping-app.a081c8479b649a032921.mp4",
     "static/media/ramen-and-rain.gif": "/personal-web-page/static/media/ramen-and-rain.fcb2e3b87d64682f9d20.gif",
     "static/media/9-Library.png": "/personal-web-page/static/media/9-Library.c04cfff140cbf6835cab.png",
@@ -36,6 +36,7 @@
     "static/media/node.png": "/personal-web-page/static/media/node.007e99f68b718e476aba.png",
     "static/media/wsl.jpg": "/personal-web-page/static/media/wsl.e604ae90cf149af409fc.jpg",
     "static/media/IDeveloper.webp": "/personal-web-page/static/media/IDeveloper.e751fcc91e24f1dbf02d.webp",
+    "static/media/java.png": "/personal-web-page/static/media/java.ddf8676bd569fe01ab44.png",
     "static/media/git.png": "/personal-web-page/static/media/git.67fdda8f53601b3d8aa8.png",
     "static/media/sql.png": "/personal-web-page/static/media/sql.86cdb54cc5fc9c392ebd.png",
     "static/media/express.png": "/personal-web-page/static/media/express.eb4513eb8c751b61cfc0.png",
@@ -44,11 +45,11 @@
     "static/media/ts.png": "/personal-web-page/static/media/ts.af108db04a54d784da9b.png",
     "static/media/js.png": "/personal-web-page/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/personal-web-page/index.html",
-    "main.ce9e8f83.css.map": "/personal-web-page/static/css/main.ce9e8f83.css.map",
-    "main.6cf121b0.js.map": "/personal-web-page/static/js/main.6cf121b0.js.map"
+    "main.3fd8ad82.css.map": "/personal-web-page/static/css/main.3fd8ad82.css.map",
+    "main.7915cb4a.js.map": "/personal-web-page/static/js/main.7915cb4a.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce9e8f83.css",
-    "static/js/main.6cf121b0.js"
+    "static/css/main.3fd8ad82.css",
+    "static/js/main.7915cb4a.js"
   ]
 }
