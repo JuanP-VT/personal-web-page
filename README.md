@@ -1,4 +1,4 @@
-# CV Creator App
+# Personal Web Page
 
 ## What is this ?
 
