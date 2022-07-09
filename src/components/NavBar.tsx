@@ -130,10 +130,6 @@ function NavBar({ setColorMode, colorMode }: Props) {
           <FontAwesomeIcon icon={faMoon} id="moonIcon" />
           <FontAwesomeIcon icon={faSun} id="sunIcon" />
         </div>
-        <div id="switchColor" className="switch" onClick={handleColorSwitch}>
-          <FontAwesomeIcon icon={faMoon} id="moonIcon" />
-          <FontAwesomeIcon icon={faSun} id="sunIcon" />
-        </div>
       </div>
       <FontAwesomeIcon icon={faBars} id="hamBtn" onClick={handleHamBtn} />
     </div>
