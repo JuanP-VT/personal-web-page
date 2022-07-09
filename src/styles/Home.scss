@@ -103,6 +103,9 @@
   position: absolute;
   justify-items: center;
   align-items: center;
+  a {
+    text-decoration: none;
+  }
   .github {
     background-color: $gitHubCardColor;
     &:hover {

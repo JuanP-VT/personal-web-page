@@ -21,6 +21,7 @@ import webpackIcon from "../img/skill-icons/webpack.png";
 import canvas from "../img/skill-icons/canva.png";
 import wslIcon from "../img/skill-icons/wsl.jpg";
 import linuxIcon from "../img/skill-icons/Linux.jpg";
+import javaIcon from "../img/skill-icons/java.png";
 
 function Skills() {
   return (
@@ -39,6 +40,9 @@ function Skills() {
             <ul>
               <li>
                 Javascript <img src={jsIcon} alt="javascript icon" />
+              </li>
+              <li>
+                Java <img src={javaIcon} alt="javascript icon" />
               </li>
               <li>
                 Typescript

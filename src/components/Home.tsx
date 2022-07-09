@@ -40,7 +40,11 @@ function Home() {
           My Name Is Juan Pablo And I'm A<br /> Web Developer
         </div>
         <div className="btnContainer">
-          <a href="ShowCase" className="cv">
+          <a
+            href="https://drive.google.com/file/d/1UIj4nAZsHQFlVahkbhRKAqf5kJuL9Udi/view?usp=sharing  "
+            download={true}
+            className="cv"
+          >
             Download CV
           </a>
           <a href="#ShowCase" className="project">
@@ -50,24 +54,27 @@ function Home() {
       </div>
 
       <div className="socials">
-        <div className="Scontainer linkedin">
+        <a
+          href="https://www.linkedin.com/in/juan-pablo-valdez-torres-0a1194242/"
+          className="Scontainer linkedin"
+        >
           <div className="text">LinkedIn</div>
           <div className="iconContainer">
             <FontAwesomeIcon icon={faLinkedin} />
           </div>
-        </div>
-        <div className="Scontainer github">
+        </a>
+        <a href="https://github.com/JuanP-VT" className="Scontainer github">
           <div className="text">GitHub</div>
           <div className="iconContainer">
             <FontAwesomeIcon icon={faGithubSquare} />
           </div>
-        </div>
-        <div className="Scontainer email">
+        </a>
+        <a href="mailto:cv.juanp@gmail.com" className="Scontainer email">
           <div className="text">Email</div>
           <div className="iconContainer ">
             <FontAwesomeIcon icon={faEnvelope} />
           </div>
-        </div>
+        </a>
       </div>
     </section>
   );

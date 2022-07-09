@@ -101,6 +101,9 @@
   justify-items: center;
   align-items: center;
 }
+.socials a {
+  text-decoration: none;
+}
 .socials .github {
   background-color: rgb(141, 139, 139);
 }
