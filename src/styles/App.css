@@ -432,9 +432,6 @@
   opacity: 0.85 !important;
 }
 
-#AllProjects {
-  display: none;
-}
 #AllProjects .txtContainer {
   color: rgb(242, 237, 237);
   width: 40%;
@@ -926,6 +923,16 @@
   }
   #carousel #videoSliderContainer img {
     opacity: 1;
+  }
+}
+@media (max-width: 1080px) {
+  #AllProjects .txtContainer {
+    width: 100%;
+  }
+}
+@media (max-width: 670px) {
+  #AllProjects .sectionTitle p {
+    font-size: 30px;
   }
 }
 * {
