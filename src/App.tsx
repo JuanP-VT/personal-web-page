@@ -6,7 +6,7 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import ShowCase from "./components/ShowCase";
 import AllProjects from "./components/AllProjects";
-import EsNavBar from "./components/es-components/EsNavBar";
+import EsHome from "./es-components/EsHome";
 function App() {
   const [colorMode, setColorMode] = useState("");
   const [currentLang, setCurrentLang] = useState("en");
@@ -150,13 +150,13 @@ function App() {
   if (currentLang === "es") {
     return (
       <div id="App">
-        <EsNavBar
+        <NavBar
           setColorMode={setColorMode}
           colorMode={colorMode}
           setCurrentLang={setCurrentLang}
           currentLang={currentLang}
         />
-        <Home />
+        <EsHome />
         <About />
         <Skills />
         <ShowCase />

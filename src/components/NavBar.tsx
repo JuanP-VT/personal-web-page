@@ -120,6 +120,50 @@ function NavBar({
     const navBarList = document.querySelector("#navBarList") as HTMLDivElement;
     navBarList.classList.toggle("active");
   }
+  // Conditional render in Spanish
+  if (currentLang === "es") {
+    return (
+      <div id="NavBar" className="static esNav">
+        <div id="navBarName">
+          <span id="nameOne">Juan</span> <span id="nameTwo">Pablo</span>
+        </div>
+        <div id="navBarList">
+          <div className="container">
+            <FontAwesomeIcon icon={faHome} />
+
+            <a href="#Home">Inicio</a>
+          </div>
+          <div className="container">
+            <FontAwesomeIcon icon={faAddressCard} />
+            <a href="#About">Acerca</a>
+          </div>
+          <div className="container">
+            <FontAwesomeIcon icon={faScrewdriverWrench} />
+
+            <a href="#Skills">Habilidades</a>
+          </div>
+          <div className="container">
+            <FontAwesomeIcon icon={faStar} />
+            <a href="#ShowCase">Destacados</a>
+          </div>
+          <div className="container">
+            <FontAwesomeIcon icon={faFolder} />
+            <a href="#AllProjects">Proyectos</a>
+          </div>
+          <div id="switchColor" className="switch" onClick={handleColorSwitch}>
+            <FontAwesomeIcon icon={faMoon} id="moonIcon" />
+            <FontAwesomeIcon icon={faSun} id="sunIcon" />
+          </div>
+          <div id="switchLang" className="switchLang" onClick={handleLangBtn}>
+            <img src={esFlag} id="esFlag" alt="es" />
+            <img src={enFlag} id="enFlag" alt="en" />
+          </div>
+        </div>
+        <FontAwesomeIcon icon={faBars} id="hamBtn" onClick={handleHamBtn} />
+      </div>
+    );
+  }
+  // Default render in English
   return (
     <div id="NavBar" className="static">
       <div id="navBarName">
