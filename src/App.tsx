@@ -7,6 +7,7 @@ import Skills from "./components/Skills";
 import ShowCase from "./components/ShowCase";
 import AllProjects from "./components/AllProjects";
 import EsHome from "./es-components/EsHome";
+import EsAbout from "./es-components/EsAbout";
 function App() {
   const [colorMode, setColorMode] = useState("");
   const [currentLang, setCurrentLang] = useState("en");
@@ -144,7 +145,7 @@ function App() {
         element.classList.remove("lightColor1");
       });
     }
-  }, [colorMode]);
+  }, [colorMode, currentLang]);
 
   // Conditional render in Spanish
   if (currentLang === "es") {
@@ -157,7 +158,7 @@ function App() {
           currentLang={currentLang}
         />
         <EsHome />
-        <About />
+        <EsAbout />
         <Skills />
         <ShowCase />
         <AllProjects />
