@@ -1,6 +1,6 @@
 import React from "react";
-import EsMadeWith from "./MadeWith";
-import ProjectCardButtons from "./ProjectCardButtons";
+import EsMadeWith from "./EsMadeWith";
+import ProjectCardButtons from "../components/ProjectCardButtons";
 
 type Props = {
   coverImgSrc: string;
@@ -16,7 +16,7 @@ type Props = {
   githubUrl: string;
 };
 
-function ProjectCard({
+function EsProjectCard({
   coverImgSrc,
   projectName,
   description,
@@ -49,4 +49,4 @@ function ProjectCard({
   );
 }
 
-export default ProjectCard;
+export default EsProjectCard;
