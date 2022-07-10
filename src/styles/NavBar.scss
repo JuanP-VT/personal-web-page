@@ -110,4 +110,45 @@
       color: $mainTextColor;
     }
   }
+  #switchLang {
+    min-width: 80px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: rgb(63, 69, 109);
+    position: relative;
+    transition: all 400ms ease-in-out;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-drag: none;
+    &::after {
+      content: "";
+      background-color: rgb(211, 211, 211);
+      border-radius: 100%;
+      position: absolute;
+      height: 100%;
+      width: 30px;
+      left: 0;
+      transition: all 400ms ease-in-out;
+      // light mode
+    }
+    &.active {
+      background-color: rgb(209, 105, 91);
+      &::after {
+        transform: translateX(170%);
+      }
+    }
+    img {
+      position: absolute;
+      height: 23px;
+      top: 10%;
+    }
+    #esFlag {
+      right: 5px;
+      color: $mainTextColor;
+    }
+    #enFlag {
+      left: 5px;
+      color: $mainTextColor;
+    }
+  }
 }

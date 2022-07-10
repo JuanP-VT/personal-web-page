@@ -10,12 +10,22 @@ import {
   faMoon,
   faBars,
 } from "@fortawesome/free-solid-svg-icons";
+import esFlag from "../img/es.png";
+import enFlag from "../img/en.png";
+
 type Props = {
   setColorMode: React.Dispatch<React.SetStateAction<string>>;
   colorMode: string;
+  setCurrentLang: React.Dispatch<React.SetStateAction<string>>;
+  currentLang: string;
 };
 
-function NavBar({ setColorMode, colorMode }: Props) {
+function NavBar({
+  setColorMode,
+  colorMode,
+  setCurrentLang,
+  currentLang,
+}: Props) {
   //Manage navbar scroll behavior
   useEffect(() => {
     if (colorMode === "") {
@@ -94,6 +104,18 @@ function NavBar({ setColorMode, colorMode }: Props) {
       NavBarList.classList.remove("light");
     }
   }
+  function handleLangBtn() {
+    const btn = document.querySelector("#switchLang") as HTMLDivElement;
+    btn.classList.toggle("active");
+    if (currentLang === "en") {
+      setCurrentLang("es");
+      return;
+    }
+    if (currentLang === "es") {
+      setCurrentLang("en");
+      return;
+    }
+  }
   function handleHamBtn() {
     const navBarList = document.querySelector("#navBarList") as HTMLDivElement;
     navBarList.classList.toggle("active");
@@ -129,6 +151,10 @@ function NavBar({ setColorMode, colorMode }: Props) {
         <div id="switchColor" className="switch" onClick={handleColorSwitch}>
           <FontAwesomeIcon icon={faMoon} id="moonIcon" />
           <FontAwesomeIcon icon={faSun} id="sunIcon" />
+        </div>
+        <div id="switchLang" className="switchLang" onClick={handleLangBtn}>
+          <img src={esFlag} id="esFlag" alt="es" />
+          <img src={enFlag} id="enFlag" alt="en" />
         </div>
       </div>
       <FontAwesomeIcon icon={faBars} id="hamBtn" onClick={handleHamBtn} />

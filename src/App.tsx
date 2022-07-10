@@ -9,6 +9,7 @@ import AllProjects from "./components/AllProjects";
 
 function App() {
   const [colorMode, setColorMode] = useState("");
+  const [currentLang, setCurrentLang] = useState("en");
   useEffect(() => {
     // Alternative LIGHT MODE
     if (colorMode === "light") {
@@ -146,7 +147,12 @@ function App() {
   }, [colorMode]);
   return (
     <div id="App">
-      <NavBar setColorMode={setColorMode} colorMode={colorMode} />
+      <NavBar
+        setColorMode={setColorMode}
+        colorMode={colorMode}
+        setCurrentLang={setCurrentLang}
+        currentLang={currentLang}
+      />
       <Home />
       <About />
       <Skills />
