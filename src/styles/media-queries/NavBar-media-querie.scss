@@ -1,3 +1,11 @@
+@media (max-width: 1495px) {
+  .esNav {
+    a {
+      font-size: 15px !important;
+    }
+  }
+}
+
 @media (max-width: 1320px) {
   #NavBar {
     #hamBtn {
@@ -70,6 +78,11 @@
 }
 
 @media (max-width: 670px) {
+  .esNav {
+    a {
+      font-size: 12px !important;
+    }
+  }
   #NavBar {
     #navBarName {
       font-size: 21px;
@@ -91,6 +104,15 @@
   #switchColor {
     transform: scale(0.88);
     svg {
+      transform: scale(0.88);
+      &::after {
+        transform: scale(0.88);
+      }
+    }
+  }
+  #switchLang {
+    transform: scale(0.88);
+    img {
       transform: scale(0.88);
       &::after {
         transform: scale(0.88);
@@ -127,6 +149,15 @@
       transform: scale(0.66);
       &::after {
         transform: scale(0.6);
+      }
+    }
+  }
+  #switchLang {
+    transform: scale(0.66);
+    img {
+      transform: scale(0.66);
+      &::after {
+        transform: scale(0.66);
       }
     }
   }
