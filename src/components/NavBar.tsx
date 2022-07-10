@@ -30,15 +30,19 @@ function NavBar({
   useEffect(() => {
     if (colorMode === "") {
       window.addEventListener("scroll", scrollDark);
+      scrollDark();
+      return;
     }
     if (colorMode === "light") {
       window.addEventListener("scroll", scrollLight);
+      scrollLight();
+      return;
     }
     return () => {
       window.removeEventListener("scroll", scrollDark);
       window.removeEventListener("scroll", scrollLight);
     };
-  }, [colorMode]);
+  }, [colorMode, currentLang]);
   // Handle color switch
   function handleColorSwitch(e: MouseEvent) {
     const target = document.querySelector("#switchColor") as HTMLDivElement;
