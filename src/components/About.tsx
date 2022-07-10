@@ -139,7 +139,7 @@ function About() {
                 trying to improve my social skills (i were very introvert).
                 <br /> This have proven to be on of the best skills i could
                 develope , understand that the people I work are complex human
-                being with emotions made me be more <span>emphatic</span>, take
+                being with emotions made me be more <span>empathic</span>, take
                 offenses/criticism <span>less personal</span> and overall made
                 me someone nicer to be around with.
               </div>
