@@ -20,7 +20,7 @@ type Props = {
   currentLang: string;
 };
 
-function NavBar({
+function EsNavBar({
   setColorMode,
   colorMode,
   setCurrentLang,
@@ -121,30 +121,32 @@ function NavBar({
     navBarList.classList.toggle("active");
   }
   return (
-    <div id="NavBar" className="static">
+    <div id="NavBar" className="static esNav">
       <div id="navBarName">
         <span id="nameOne">Juan</span> <span id="nameTwo">Pablo</span>
       </div>
       <div id="navBarList">
         <div className="container">
           <FontAwesomeIcon icon={faHome} />
-          <a href="#Home">Home</a>
+
+          <a href="#Home">Inicio</a>
         </div>
         <div className="container">
           <FontAwesomeIcon icon={faAddressCard} />
-          <a href="#About">About</a>
+          <a href="#About">Acerca</a>
         </div>
         <div className="container">
           <FontAwesomeIcon icon={faScrewdriverWrench} />
-          <a href="#Skills">Skills</a>
+
+          <a href="#Skills">Habilidades</a>
         </div>
         <div className="container">
           <FontAwesomeIcon icon={faStar} />
-          <a href="#ShowCase">Showcase</a>
+          <a href="#ShowCase">Destacados</a>
         </div>
         <div className="container">
           <FontAwesomeIcon icon={faFolder} />
-          <a href="#AllProjects">Projects</a>
+          <a href="#AllProjects">Proyectos</a>
         </div>
         <div id="switchColor" className="switch" onClick={handleColorSwitch}>
           <FontAwesomeIcon icon={faMoon} id="moonIcon" />
@@ -160,4 +162,4 @@ function NavBar({
   );
 }
 
-export default NavBar;
+export default EsNavBar;

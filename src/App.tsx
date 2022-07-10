@@ -6,7 +6,7 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import ShowCase from "./components/ShowCase";
 import AllProjects from "./components/AllProjects";
-
+import EsNavBar from "./components/es-components/EsNavBar";
 function App() {
   const [colorMode, setColorMode] = useState("");
   const [currentLang, setCurrentLang] = useState("en");
@@ -145,6 +145,26 @@ function App() {
       });
     }
   }, [colorMode]);
+
+  // Conditional render in Spanish
+  if (currentLang === "es") {
+    return (
+      <div id="App">
+        <EsNavBar
+          setColorMode={setColorMode}
+          colorMode={colorMode}
+          setCurrentLang={setCurrentLang}
+          currentLang={currentLang}
+        />
+        <Home />
+        <About />
+        <Skills />
+        <ShowCase />
+        <AllProjects />
+      </div>
+    );
+  }
+  // Default Render in English
   return (
     <div id="App">
       <NavBar
