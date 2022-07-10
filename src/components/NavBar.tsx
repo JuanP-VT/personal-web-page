@@ -31,7 +31,7 @@ function NavBar({ setColorMode, colorMode }: Props) {
   }, [colorMode]);
   // Handle color switch
   function handleColorSwitch(e: MouseEvent) {
-    const target = e.target as HTMLDivElement;
+    const target = document.querySelector("#switchColor") as HTMLDivElement;
     if (target.classList.contains("active")) {
       target.classList.remove("active");
       setColorMode("");
