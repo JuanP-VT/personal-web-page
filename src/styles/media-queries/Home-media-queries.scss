@@ -126,4 +126,26 @@
       }
     }
   }
+  .socials {
+    a {
+      padding: 5px !important;
+      padding-left: 10px !important;
+    }
+    padding: 0;
+    bottom: 0;
+    .Scontainer {
+      height: 30px;
+      width: 120px;
+      transform: translateX(-80px);
+      .text {
+        font-size: 12px;
+        height: 20px;
+        text-align: center;
+      }
+      svg {
+        height: 20px;
+        width: 20px;
+      }
+    }
+  }
 }
