@@ -38,12 +38,12 @@ function EsAbout() {
               interesante mi <span>disciplina</span> me mantuvo fuerte y me
               impulsó a través de mi educación. A fines de 2018 obtuve mi{" "}
               <span>Licenciatura</span>, volé a Tijuana(una de los mayores
-              ciudades industriales del país) y trabajó allí durante casi dos
+              ciudades industriales del país) y trabajé ahí durante casi dos
               años.
             </p>
             <br />
             <p>
-              A pesar de estar bien me sentía muy insatisfecho con mi vida
+              A pesar de estar bien, me sentía muy insatisfecho con mi vida
               profesional y el entorno general de la industria manufacturera, la
               próximos meses mi vida se volvería muy gris, la elección que un
               retoño sin experiencia tomó muchos años atrás, se sentía como
@@ -77,8 +77,8 @@ function EsAbout() {
             <p>
               Su nueva situación y ambiente de trabajo lo pusieron de buen humor
               por lo que trató de convencerme de dejar el campo de la
-              manufactura y me convertirse en un <span>desarrollador</span>, en
-              ese momento no estaba listo para abandonar casi 7 años de
+              manufactura y me convertirme en un <span>desarrollador</span>, en
+              ese momento yo no estaba listo para abandonar casi 7 años de
               educación y experiencia.
             </p>
             <p>
@@ -87,8 +87,11 @@ function EsAbout() {
               <span>
                 aficionado a la <em>tecnología</em>
               </span>
-              , siempre tuve interes ​​en los videojuegos, las computadoras y
-              incluso tuve algo de <span>experiencia codeando</span>
+              , siempre tuve interes ​​en los videojuegos, las computadoras e
+              incluso tuve algo de{" "}
+              <span>
+                experiencia <em>codeando</em>
+              </span>
               con C (educación escolar) y Lua (usé código en El mod
               computercraft de Minecraft y me encantaba), después de unos meses
               de investigación, charlas y análisis me quedó claro, esa idea se
