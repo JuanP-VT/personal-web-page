@@ -10,6 +10,7 @@ import EsHome from "./es-components/EsHome";
 import EsAbout from "./es-components/EsAbout";
 import EsAllProjects from "./es-components/EsAllProjects";
 import EsSkills from "./es-components/EsSkills";
+import EsShowCase from "./es-components/EsShowCase";
 function App() {
   const [colorMode, setColorMode] = useState("");
   const [currentLang, setCurrentLang] = useState("en");
@@ -162,7 +163,7 @@ function App() {
         <EsHome />
         <EsAbout />
         <EsSkills />
-        <ShowCase />
+        <EsShowCase />
         <EsAllProjects />
       </div>
     );

@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import cvAppVid from "../video/cv-app.mp4";
 import sketchVid from "../video/etch-a-sketch.mp4";
 import libraryVid from "../video/library.mp4";
