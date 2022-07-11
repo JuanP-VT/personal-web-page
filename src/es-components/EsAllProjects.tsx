@@ -27,8 +27,8 @@ function EsAllProjects() {
     <section id="AllProjects">
       <div className="sectionTitle">
         <p>
-          All My
-          <span className="alter">Projects</span>
+          Mis
+          <span className="alter">Proyectos</span>
         </p>
       </div>
       <div className="txtContainer">
