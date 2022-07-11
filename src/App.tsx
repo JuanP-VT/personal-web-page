@@ -9,6 +9,7 @@ import AllProjects from "./components/AllProjects";
 import EsHome from "./es-components/EsHome";
 import EsAbout from "./es-components/EsAbout";
 import EsAllProjects from "./es-components/EsAllProjects";
+import EsSkills from "./es-components/EsSkills";
 function App() {
   const [colorMode, setColorMode] = useState("");
   const [currentLang, setCurrentLang] = useState("en");
@@ -160,7 +161,7 @@ function App() {
         />
         <EsHome />
         <EsAbout />
-        <Skills />
+        <EsSkills />
         <ShowCase />
         <EsAllProjects />
       </div>

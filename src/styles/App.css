@@ -1047,6 +1047,7 @@ body {
   padding: 20px;
   font-weight: 700;
   padding-top: 60px;
+  overflow-x: hidden;
   color: rgb(242, 237, 237);
 }
 .sectionTitle .alter {
