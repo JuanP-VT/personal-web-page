@@ -41,7 +41,7 @@ function Home() {
         </div>
         <div className="btnContainer">
           <a
-            href="https://drive.google.com/file/d/1UIj4nAZsHQFlVahkbhRKAqf5kJuL9Udi/view?usp=sharing  "
+            href="https://drive.google.com/file/d/1jsn4fxmWGuWkOjdqOuwsBa-V23YsrhY-/view?usp=sharing"
             download={true}
             className="cv"
           >

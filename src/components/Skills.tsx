@@ -42,9 +42,6 @@ function Skills() {
                 Javascript <img src={jsIcon} alt="javascript icon" />
               </li>
               <li>
-                Java <img src={javaIcon} alt="javascript icon" />
-              </li>
-              <li>
                 Typescript
                 <img src={tsIcon} alt="typescript icon" />
               </li>
