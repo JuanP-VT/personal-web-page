@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-web-page/static/css/main.f1e37ba5.css",
-    "main.js": "/personal-web-page/static/js/main.e4c21e68.js",
+    "main.js": "/personal-web-page/static/js/main.d2015b8c.js",
     "static/media/shopping-app.mp4": "/personal-web-page/static/media/shopping-app.a081c8479b649a032921.mp4",
     "static/media/ramen-and-rain.gif": "/personal-web-page/static/media/ramen-and-rain.fcb2e3b87d64682f9d20.gif",
     "static/media/9-Library.png": "/personal-web-page/static/media/9-Library.c04cfff140cbf6835cab.png",
@@ -36,7 +36,6 @@
     "static/media/node.png": "/personal-web-page/static/media/node.007e99f68b718e476aba.png",
     "static/media/wsl.jpg": "/personal-web-page/static/media/wsl.e604ae90cf149af409fc.jpg",
     "static/media/IDeveloper.webp": "/personal-web-page/static/media/IDeveloper.e751fcc91e24f1dbf02d.webp",
-    "static/media/java.png": "/personal-web-page/static/media/java.ddf8676bd569fe01ab44.png",
     "static/media/git.png": "/personal-web-page/static/media/git.67fdda8f53601b3d8aa8.png",
     "static/media/es.png": "/personal-web-page/static/media/es.b9a2ba74e5f8a55977e7.png",
     "static/media/sql.png": "/personal-web-page/static/media/sql.86cdb54cc5fc9c392ebd.png",
@@ -48,10 +47,10 @@
     "static/media/js.png": "/personal-web-page/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/personal-web-page/index.html",
     "main.f1e37ba5.css.map": "/personal-web-page/static/css/main.f1e37ba5.css.map",
-    "main.e4c21e68.js.map": "/personal-web-page/static/js/main.e4c21e68.js.map"
+    "main.d2015b8c.js.map": "/personal-web-page/static/js/main.d2015b8c.js.map"
   },
   "entrypoints": [
     "static/css/main.f1e37ba5.css",
-    "static/js/main.e4c21e68.js"
+    "static/js/main.d2015b8c.js"
   ]
 }
