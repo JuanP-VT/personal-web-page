@@ -77,7 +77,7 @@ function EsAbout() {
             <p>
               Su nueva situación y ambiente de trabajo lo pusieron de buen humor
               por lo que trató de convencerme de dejar el campo de la
-              manufactura y me convertirme en un <span>desarrollador</span>, en
+              manufactura y de convertirme en un <span>desarrollador</span>, en
               ese momento yo no estaba listo para abandonar casi 7 años de
               educación y experiencia.
             </p>
