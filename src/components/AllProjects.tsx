@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import ProjectCard from "./ProjectCard";
+import Project15 from "../img/projects-photos/15-Razer.png";
 import Project14 from "../img/projects-photos/14-MyWebPage.png";
 import Project13 from "../img/projects-photos/13-Shopping Cart.png";
 import project12 from "../img/projects-photos/12-CV Creator.png";
@@ -22,6 +23,7 @@ import cssIcon from "../img/skill-icons/css.png";
 import sassIcon from "../img/skill-icons/sass.png";
 import react from "../img/skill-icons/react.png";
 import webpackIcon from "../img/skill-icons/webpack.png";
+import styledIcon from "../img/skill-icons/styledComp.png";
 function AllProjects() {
   useEffect(() => {}, []);
   return (
@@ -50,16 +52,27 @@ function AllProjects() {
       </div>
       <div id="projectContainer">
         <ProjectCard
+          coverImgSrc={Project15}
+          projectName="Razer Page Replica"
+          description="Work in Progress.. Recreation of Razer page"
+          date="August 2022"
+          demoURL="https://juanp-vt.github.io/razer-page-replica/"
+          githubUrl="https://github.com/JuanP-VT/razer-page-replica"
+          icon1={tsIcon}
+          icon2={react}
+          icon3={styledIcon}
+        />
+        <ProjectCard
           coverImgSrc={Project14}
           projectName="Personal WebPage"
           description="My Personal Webpage showcases my work as a developer, I built this site from scratch with CRA"
           date="June 2022"
-          demoURL="s"
+          demoURL="#"
           githubUrl="https://github.com/JuanP-VT/personal-web-page"
           icon1={tsIcon}
           icon2={react}
           icon3={sassIcon}
-        />{" "}
+        />
         <ProjectCard
           coverImgSrc={Project13}
           projectName="Shopping Cart App"
