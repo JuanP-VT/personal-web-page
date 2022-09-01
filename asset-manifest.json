@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/personal-web-page/static/css/main.f1e37ba5.css",
-    "main.js": "/personal-web-page/static/js/main.d2015b8c.js",
+    "main.js": "/personal-web-page/static/js/main.13eed082.js",
     "static/media/shopping-app.mp4": "/personal-web-page/static/media/shopping-app.a081c8479b649a032921.mp4",
     "static/media/ramen-and-rain.gif": "/personal-web-page/static/media/ramen-and-rain.fcb2e3b87d64682f9d20.gif",
     "static/media/9-Library.png": "/personal-web-page/static/media/9-Library.c04cfff140cbf6835cab.png",
     "static/media/to-do-list.mp4": "/personal-web-page/static/media/to-do-list.8af72af1be7a7af6ffd0.mp4",
+    "static/media/15-Razer.png": "/personal-web-page/static/media/15-Razer.846453c5eeb779ab14c9.png",
     "static/media/10-ImageCarousel.png": "/personal-web-page/static/media/10-ImageCarousel.e371b73f7c54bef38fe9.png",
     "static/media/library.mp4": "/personal-web-page/static/media/library.57edf220e6768e2e7718.mp4",
     "static/media/7-Restaurant.png": "/personal-web-page/static/media/7-Restaurant.8f733c515127e8cfbfd0.png",
@@ -40,6 +41,7 @@
     "static/media/es.png": "/personal-web-page/static/media/es.b9a2ba74e5f8a55977e7.png",
     "static/media/sql.png": "/personal-web-page/static/media/sql.86cdb54cc5fc9c392ebd.png",
     "static/media/express.png": "/personal-web-page/static/media/express.eb4513eb8c751b61cfc0.png",
+    "static/media/styledComp.png": "/personal-web-page/static/media/styledComp.da090b22905ecd34b164.png",
     "static/media/html.png": "/personal-web-page/static/media/html.6e930594286d8afe4c79.png",
     "static/media/css.png": "/personal-web-page/static/media/css.463e319bad8e0edf1ef7.png",
     "static/media/en.png": "/personal-web-page/static/media/en.7ab20088ad372c62ab72.png",
@@ -47,10 +49,10 @@
     "static/media/js.png": "/personal-web-page/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/personal-web-page/index.html",
     "main.f1e37ba5.css.map": "/personal-web-page/static/css/main.f1e37ba5.css.map",
-    "main.d2015b8c.js.map": "/personal-web-page/static/js/main.d2015b8c.js.map"
+    "main.13eed082.js.map": "/personal-web-page/static/js/main.13eed082.js.map"
   },
   "entrypoints": [
     "static/css/main.f1e37ba5.css",
-    "static/js/main.d2015b8c.js"
+    "static/js/main.13eed082.js"
   ]
 }
