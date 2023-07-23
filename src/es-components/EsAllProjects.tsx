@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import EsProjectCard from "../es-components/EsProjectCard";
+import Project15 from "../img/projects-photos/15 - ECommerce.png";
 import Project14 from "../img/projects-photos/14-MyWebPage.png";
 import Project13 from "../img/projects-photos/13-Shopping Cart.png";
 import project12 from "../img/projects-photos/12-CV Creator.png";
@@ -14,6 +15,7 @@ import project04 from "../img/projects-photos/4-RockPaperScissors.png";
 import project03 from "../img/projects-photos/3-Dashboad.png";
 import project02 from "../img/projects-photos/2-SignUp Page.png";
 import project01 from "../img/projects-photos/1-LandingPage.png";
+
 import jsIcon from "../img/skill-icons/js.png";
 import tsIcon from "../img/skill-icons/ts.png";
 import htmlIcon from "../img/skill-icons/html.png";
@@ -21,6 +23,9 @@ import cssIcon from "../img/skill-icons/css.png";
 import sassIcon from "../img/skill-icons/sass.png";
 import react from "../img/skill-icons/react.png";
 import webpackIcon from "../img/skill-icons/webpack.png";
+import nextJs from "../img/skill-icons/nexticon.png";
+import mongoDb from "../img/skill-icons/mongo.jpg";
+import tailwind from "../img/skill-icons/tailwind.png";
 function EsAllProjects() {
   useEffect(() => {}, []);
   return (
@@ -47,7 +52,21 @@ function EsAllProjects() {
           aplicación.
         </p>
       </div>
+
       <div id="projectContainer">
+        <EsProjectCard
+          coverImgSrc={Project15}
+          projectName="Pc - Hub"
+          description="Prototipo funcional de ECommerce"
+          date="Julio 2023"
+          demoURL="https://store-juanp-vt.vercel.app/"
+          githubUrl="https://github.com/JuanP-VT/pc-ecommerce"
+          icon1={tsIcon}
+          icon2={react}
+          icon3={nextJs}
+          icon4={mongoDb}
+          icon5={tailwind}
+        />
         <EsProjectCard
           coverImgSrc={Project14}
           projectName="Web Personal"
