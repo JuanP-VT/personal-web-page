@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import ProjectCard from "./ProjectCard";
-import Project15 from "../img/projects-photos/15-Razer.png";
+import Project15 from "../img/projects-photos/15 - ECommerce.png";
 import Project14 from "../img/projects-photos/14-MyWebPage.png";
 import Project13 from "../img/projects-photos/13-Shopping Cart.png";
 import project12 from "../img/projects-photos/12-CV Creator.png";
@@ -23,7 +23,9 @@ import cssIcon from "../img/skill-icons/css.png";
 import sassIcon from "../img/skill-icons/sass.png";
 import react from "../img/skill-icons/react.png";
 import webpackIcon from "../img/skill-icons/webpack.png";
-import styledIcon from "../img/skill-icons/styledComp.png";
+import nextJs from "../img/skill-icons/nexticon.png";
+import mongoDb from "../img/skill-icons/mongo.jpg";
+import tailwind from "../img/skill-icons/tailwind.png";
 function AllProjects() {
   useEffect(() => {}, []);
   return (
@@ -53,14 +55,16 @@ function AllProjects() {
       <div id="projectContainer">
         <ProjectCard
           coverImgSrc={Project15}
-          projectName="Razer Page Replica"
-          description="Work in Progress.. Recreation of Razer page"
-          date="August 2022"
-          demoURL="https://juanp-vt.github.io/razer-page-replica/"
-          githubUrl="https://github.com/JuanP-VT/razer-page-replica"
+          projectName="Pc - Hub"
+          description="Fully Functional Ecommerce Prototype"
+          date="July 2023"
+          demoURL="https://store-juanp-vt.vercel.app/"
+          githubUrl="https://github.com/JuanP-VT/pc-ecommerce"
           icon1={tsIcon}
           icon2={react}
-          icon3={styledIcon}
+          icon3={nextJs}
+          icon4={mongoDb}
+          icon5={tailwind}
         />
         <ProjectCard
           coverImgSrc={Project14}

@@ -32,6 +32,10 @@ function Home() {
   }, []);
   return (
     <section id="Home">
+      <div id="update">
+        🎉🥳🎂🎈 As Of July 24 This web is now 1 year old, <br />
+        Currently reworking it from scratch! 🎊🎉🥳🎂🎈🎊
+      </div>
       <div className="container">
         <div id="textAnimation">
           <span ref={el}></span>
@@ -40,13 +44,6 @@ function Home() {
           My Name Is Juan Pablo And I'm A<br /> Web Developer
         </div>
         <div className="btnContainer">
-          <a
-            href="https://drive.google.com/file/d/1jsn4fxmWGuWkOjdqOuwsBa-V23YsrhY-/view?usp=sharing"
-            download={true}
-            className="cv"
-          >
-            Download CV
-          </a>
           <a href="#ShowCase" className="project">
             View Projects
           </a>

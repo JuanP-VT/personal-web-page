@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Permanent+Marker&display=swap");
+
+#update {
+  color: white;
+  position: absolute;
+  top: 55px;
+  font-size: small;
+}
 #Home {
   width: 100%;
   background-color: rgb(10, 10, 10);
@@ -385,7 +392,8 @@
   background-color: rgb(56, 55, 55);
   height: 400px;
   align-items: center;
-  box-shadow: rgba(84, 76, 76, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  box-shadow: rgba(84, 76, 76, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
   border-radius: 10px;
   transition: all 200ms ease-in-out;
   cursor: pointer;

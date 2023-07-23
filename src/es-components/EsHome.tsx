@@ -32,6 +32,10 @@ function EsHome() {
   }, []);
   return (
     <section id="Home">
+      <div id="update">
+        Desde el 24 de julio, esta web tiene 1 año de vida! 🎊🎉🥳🎂🎈 <br />
+        Actualmente, la estoy remodelando desde cero. 🎊🎉🥳🎂🎈🎊
+      </div>
       <div className="container">
         <div id="textAnimation">
           <span ref={el}></span>
@@ -40,13 +44,6 @@ function EsHome() {
           My Nombre Es Juan Pablo Y Soy Un <br /> Desarrollador Web
         </div>
         <div className="btnContainer">
-          <a
-            href="https://drive.google.com/file/d/1UIj4nAZsHQFlVahkbhRKAqf5kJuL9Udi/view?usp=sharing  "
-            download={true}
-            className="cv"
-          >
-            Descargar CV
-          </a>
           <a href="#ShowCase" className="project">
             Ver Proyectos
           </a>
