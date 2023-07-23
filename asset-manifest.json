@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-web-page/static/css/main.52cedc52.css",
-    "main.js": "/personal-web-page/static/js/main.83f8b404.js",
+    "main.js": "/personal-web-page/static/js/main.823824c2.js",
     "static/media/shopping-app.mp4": "/personal-web-page/static/media/shopping-app.a081c8479b649a032921.mp4",
     "static/media/ramen-and-rain.gif": "/personal-web-page/static/media/ramen-and-rain.fcb2e3b87d64682f9d20.gif",
     "static/media/9-Library.png": "/personal-web-page/static/media/9-Library.c04cfff140cbf6835cab.png",
@@ -49,10 +49,10 @@
     "static/media/js.png": "/personal-web-page/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/personal-web-page/index.html",
     "main.52cedc52.css.map": "/personal-web-page/static/css/main.52cedc52.css.map",
-    "main.83f8b404.js.map": "/personal-web-page/static/js/main.83f8b404.js.map"
+    "main.823824c2.js.map": "/personal-web-page/static/js/main.823824c2.js.map"
   },
   "entrypoints": [
     "static/css/main.52cedc52.css",
-    "static/js/main.83f8b404.js"
+    "static/js/main.823824c2.js"
   ]
 }
